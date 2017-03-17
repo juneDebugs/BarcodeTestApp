@@ -57,7 +57,7 @@ namespace BarcodeTestApp
 			if (result != null)
 			{
 				System.Diagnostics.Debug.WriteLine("Scanned Barcode: " + result.Text);
-				path = result.Text;
+				Path = result.Text;
 			}
 
 

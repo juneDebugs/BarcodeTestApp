@@ -1786,7 +1786,7 @@ ldr x0, [x16, #464]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.word 0x14000103
+.word 0x140000ff
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -1894,7 +1894,7 @@ bl _p_34
 .word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400009c
+.word 0x14000098
 .word 0xf94013a0
 .word 0xf90047a0
 .word 0xf94013a0
@@ -1929,7 +1929,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf94013a0
 .word 0xf9400400
-.word 0xb40009a0
+.word 0xb4000920
 .loc 3 58 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -1948,32 +1948,32 @@ bl _p_17
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #496]
-.word 0xf90057a0
+.word 0xf90053a0
 .word 0xf94013a0
 .word 0xf9400400
-.word 0xf9005fa0
+.word 0xf9005ba0
 .word 0xf94017b1
 .word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405fa1
+.word 0xf9405ba1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_36
-.word 0xf9005ba0
+.word 0xf90057a0
 .word 0xf94017b1
 .word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a0
-.word 0xf9405ba1
+.word 0xf94053a0
+.word 0xf94057a1
 bl _p_37
-.word 0xf90053a0
+.word 0xf9004fa0
 .word 0xf94017b1
 .word 0xf9435631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a0
+.word 0xf9404fa0
 bl _p_38
 .loc 3 60 0
 .word 0xf94017b1
@@ -1982,33 +1982,29 @@ bl _p_38
 .word 0xd63f0220
 .word 0xf94013a0
 .word 0xf9400800
-.word 0xf90047a0
+.word 0xf90043a0
 .word 0xf94013a0
 .word 0xf9400400
-.word 0xf9004fa0
+.word 0xf9004ba0
 .word 0xf94017b1
 .word 0xf9439631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404fa1
+.word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_36
-.word 0xf9004ba0
+.word 0xf90047a0
 .word 0xf94017b1
 .word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a0
-.word 0xf9404ba1
-.word 0xf90043a1
-.word 0xf9000c01
-.word 0x91006000
-bl _p_17
 .word 0xf94043a0
+.word 0xf94047a1
+bl _p_39
 .loc 3 61 0
 .word 0xf94017b1
-.word 0xf943e631
+.word 0xf943d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000019
@@ -2024,17 +2020,17 @@ bl _p_17
 .word 0xf94013a0
 .word 0x91006000
 .word 0xf94027a1
-bl _p_39
+bl _p_40
 .word 0xf94017b1
-.word 0xf9442e31
+.word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_41
+bl _p_42
 .word 0x14000016
 .loc 3 64 0
 .word 0xf9401bb1
@@ -2042,7 +2038,7 @@ bl _p_41
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9446a31
+.word 0xf9445a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -2053,13 +2049,13 @@ bl _p_41
 .word 0xb900301e
 .word 0xf94013a0
 .word 0x91006000
-bl _p_42
+bl _p_43
 .word 0xf94017b1
-.word 0xf9449e31
+.word 0xf9448e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf944ae31
+.word 0xf9449e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -2095,7 +2091,7 @@ ldr x16, [x16, #504]
 .word 0xf9400ba0
 .word 0x91006000
 .word 0xf9400fa1
-bl _p_43
+bl _p_44
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -2170,7 +2166,7 @@ ldr x0, [x16, #520]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_44
+bl _p_45
 .word 0xf9004fa0
 .word 0xf94017b1
 .word 0xf940de31
@@ -2181,7 +2177,7 @@ bl _p_44
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_45
+bl _p_46
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -2199,7 +2195,7 @@ bl _p_17
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_46
+bl _p_47
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -2221,7 +2217,7 @@ bl _p_46
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #528]
-bl _p_47
+bl _p_48
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -2229,7 +2225,7 @@ bl _p_47
 .word 0x14000021
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_48
+bl _p_49
 .word 0xf94017b1
 .word 0xf941c231
 .word 0xb4000051
@@ -2247,17 +2243,17 @@ bl _p_48
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_49
+bl _p_50
 .word 0xf94017b1
 .word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_41
+bl _p_42
 .word 0x14000001
 .word 0xf94017b1
 .word 0xf9423631
@@ -2296,7 +2292,7 @@ ldr x16, [x16, #536]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_50
+bl _p_51
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -2348,11 +2344,11 @@ ldr x16, [x16, #544]
 .word 0x910103a0
 .word 0xf9003fa0
 .word 0xf9402ba0
-bl _p_51
+bl _p_52
 .word 0xaa0003ef
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_52
+bl _p_53
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -2364,8 +2360,8 @@ bl _p_52
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_51
-bl _p_53
+bl _p_52
+bl _p_54
 .word 0x9100c3a1
 .word 0xf90033a0
 .word 0x91004001
@@ -2424,14 +2420,14 @@ ldr x16, [x16, #552]
 .word 0xf2a00020
 .word 0xd29ea2a0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2802ee0
 .word 0xf2a04000
 .word 0xd2802ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -2473,14 +2469,14 @@ ldr x16, [x16, #560]
 .word 0xf2a00020
 .word 0xd29ea2a0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2802ee0
 .word 0xf2a04000
 .word 0xd2802ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -2547,8 +2543,8 @@ ldr x16, [x16, #568]
 .word 0xf2a00020
 .word 0xd29eaa20
 .word 0xf2a00020
-bl _p_54
 bl _p_55
+bl _p_56
 .word 0xf90053a0
 .word 0xf94023b1
 .word 0xf940e231
@@ -2560,7 +2556,7 @@ bl _p_55
 .word 0xd2803080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 173 0
 .word 0xf94023b1
 .word 0xf9410e31
@@ -2591,7 +2587,7 @@ bl _p_41
 .word 0xaa1703e0
 .word 0x910183a0
 .word 0xf9402fa0
-bl _p_56
+bl _p_57
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
@@ -2796,14 +2792,14 @@ ldr x16, [x16, #576]
 .word 0xd63f0220
 .word 0xd284d200
 .word 0xd284d200
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b60
 .word 0xf2a04000
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 201 0
 .word 0xf94013b1
 .word 0xf940d631
@@ -2813,7 +2809,7 @@ bl _p_41
 .word 0xaa1a03e0
 .word 0x910103a0
 .word 0xf9401fa0
-bl _p_57
+bl _p_58
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -2889,14 +2885,14 @@ ldr x16, [x16, #584]
 .word 0xd63f0220
 .word 0xd284d200
 .word 0xd284d200
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b60
 .word 0xf2a04000
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 210 0
 .word 0xf9402bb1
 .word 0xf940e631
@@ -2964,7 +2960,7 @@ ldr x0, [x16, #600]
 .word 0xaa1a03e0
 .word 0x910123a0
 .word 0xf94037a0
-bl _p_58
+bl _p_59
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -3104,14 +3100,14 @@ ldr x16, [x16, #624]
 .word 0xf2a00020
 .word 0xd29e9ca0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2802ee0
 .word 0xf2a04000
 .word 0xd2802ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -3154,14 +3150,14 @@ ldr x16, [x16, #632]
 .word 0xf2a00020
 .word 0xd29ea2a0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2802ee0
 .word 0xf2a04000
 .word 0xd2802ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -3204,14 +3200,14 @@ ldr x16, [x16, #640]
 .word 0xf2a00020
 .word 0xd29ea2a0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2802ee0
 .word 0xf2a04000
 .word 0xd2802ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -3277,8 +3273,8 @@ ldr x16, [x16, #648]
 .word 0xf2a00020
 .word 0xd29eaa20
 .word 0xf2a00020
-bl _p_54
 bl _p_55
+bl _p_56
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940de31
@@ -3290,7 +3286,7 @@ bl _p_55
 .word 0xd2803080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 101 0
 .word 0xf9401bb1
 .word 0xf9410a31
@@ -3321,7 +3317,7 @@ bl _p_41
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_59
+bl _p_60
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
@@ -3469,14 +3465,14 @@ ldr x16, [x16, #656]
 .word 0xd63f0220
 .word 0xd285a1a0
 .word 0xd285a1a0
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 128 0
 .word 0xf94027b1
 .word 0xf940be31
@@ -3504,8 +3500,8 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd29eaa20
 .word 0xf2a00020
-bl _p_54
 bl _p_55
+bl _p_56
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf9412e31
@@ -3517,7 +3513,7 @@ bl _p_55
 .word 0xd2803080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 130 0
 .word 0xf94027b1
 .word 0xf9415a31
@@ -3588,14 +3584,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd29eb520
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b20
 .word 0xf2a04000
 .word 0xd2800b20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 134 0
 .word 0xf94027b1
 .word 0xf9428a31
@@ -3623,8 +3619,8 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd29eaa20
 .word 0xf2a00020
-bl _p_54
 bl _p_55
+bl _p_56
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf942fa31
@@ -3636,7 +3632,7 @@ bl _p_55
 .word 0xd2803080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 5 136 0
 .word 0xf94027b1
 .word 0xf9432631
@@ -3653,14 +3649,14 @@ bl _p_41
 .word 0xd63f0220
 .word 0xd284d200
 .word 0xd284d200
-bl _p_54
+bl _p_55
 .word 0xf90073a0
 .word 0xd29ecd80
 .word 0xf2a00020
 .word 0xd29ecd80
 .word 0xf2a00020
-bl _p_54
 bl _p_55
+bl _p_56
 .word 0xf90077a0
 .word 0xf94027b1
 .word 0xf9438231
@@ -3673,7 +3669,7 @@ bl _p_55
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .loc 5 140 0
 .word 0xf94027b1
 .word 0xf943b231
@@ -3725,7 +3721,7 @@ bl _p_41
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_60
+bl _p_61
 .word 0xf94027b1
 .word 0xf9447e31
 .word 0xb4000051
@@ -3795,14 +3791,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -4040,14 +4036,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -4279,14 +4275,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -4499,14 +4495,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -4744,14 +4740,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -4983,14 +4979,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5203,14 +5199,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5448,14 +5444,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5669,14 +5665,14 @@ ldr x0, [x16, #672]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_41
+bl _p_42
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5922,14 +5918,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6168,14 +6164,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6414,14 +6410,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6684,14 +6680,14 @@ ldr x16, [x16, #768]
 .word 0xd63f0220
 .word 0xd29c6d60
 .word 0xd29c6d60
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 6 311 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -6732,7 +6728,7 @@ bl _p_41
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_62
+bl _p_63
 .loc 6 315 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -6743,7 +6739,7 @@ bl _p_62
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_63
+bl _p_64
 .loc 6 316 0
 .word 0xf94013b1
 .word 0xf941f631
@@ -6751,7 +6747,7 @@ bl _p_63
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_64
+bl _p_65
 .word 0xf94013b1
 .word 0xf9421231
 .word 0xb4000051
@@ -6765,7 +6761,7 @@ bl _p_64
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_65
+bl _p_66
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -6807,7 +6803,7 @@ ldr x16, [x16, #776]
 .word 0xf9400a11
 .word 0xf90027b1
 .word 0xf9403fa0
-bl _p_66
+bl _p_67
 .word 0xaa0003f9
 .word 0xb9800320
 .word 0x91003c10
@@ -6865,8 +6861,8 @@ bl _p_66
 .word 0xeb1e02ff
 .word 0x54000360
 .word 0xf9403fa0
-bl _p_67
-bl _p_53
+bl _p_68
+bl _p_54
 .word 0xb9802b21
 .word 0xaa1803e2
 .word 0x8b010301
@@ -6877,7 +6873,7 @@ bl _p_53
 .word 0xf9400f20
 .word 0xf9401320
 .word 0xf9403fa0
-bl _p_68
+bl _p_69
 .word 0xaa0003e2
 .word 0xf94077a0
 .word 0xf9407ba1
@@ -6907,14 +6903,14 @@ bl _mono_gsharedvt_value_copy
 .word 0xd63f0220
 .word 0xd29c6d60
 .word 0xd29c6d60
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 6 79 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -6955,7 +6951,7 @@ bl _p_41
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_62
+bl _p_63
 .loc 6 83 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -6966,7 +6962,7 @@ bl _p_62
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
-bl _p_63
+bl _p_64
 .loc 6 84 0
 .word 0xf94023b1
 .word 0xf942be31
@@ -6979,7 +6975,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #784]
 .word 0xf90073a0
 .word 0xf9403fa0
-bl _p_68
+bl _p_69
 .word 0xaa0003e2
 .word 0xf94073a1
 .word 0xd2800000
@@ -6987,7 +6983,7 @@ bl _p_68
 .word 0xaa1a03e0
 .word 0xd2800003
 .word 0xd2800004
-bl _p_69
+bl _p_70
 .word 0xf94023b1
 .word 0xf9430a31
 .word 0xb4000051
@@ -7001,7 +6997,7 @@ bl _p_69
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
-bl _p_65
+bl _p_66
 .word 0xf94023b1
 .word 0xf9433e31
 .word 0xb4000051
@@ -7060,7 +7056,7 @@ ldr x16, [x16, #792]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #800]
-bl _p_70
+bl _p_71
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -7101,7 +7097,7 @@ ldr x16, [x16, #808]
 .word 0xf9400a11
 .word 0xf90037b1
 .word 0xf9403fa0
-bl _p_71
+bl _p_72
 .word 0xaa0003f7
 .word 0xb98002e0
 .word 0x91003c10
@@ -7142,7 +7138,7 @@ bl _p_71
 .word 0xaa1803e0
 .word 0x91002300
 .word 0xf9006fa0
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf94033b1
@@ -7156,7 +7152,7 @@ bl _p_72
 .word 0xaa1403e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_73
+bl _p_74
 .word 0xf9006ba0
 .word 0xf94033b1
 .word 0xf9413231
@@ -7175,7 +7171,7 @@ bl _p_73
 .word 0x910203a2
 .word 0xaa1303e0
 .word 0xaa1a03e1
-bl _p_74
+bl _p_75
 .word 0xf9006ba0
 .word 0xf94033b1
 .word 0xf9417e31
@@ -7201,7 +7197,7 @@ bl _p_74
 .word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf94033b1
@@ -7222,7 +7218,7 @@ bl _p_72
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_73
+bl _p_74
 .word 0xf90087a0
 .word 0xf94033b1
 .word 0xf9422e31
@@ -7231,7 +7227,7 @@ bl _p_73
 .word 0xf94087a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf9006ba0
 .word 0xf94033b1
@@ -7251,7 +7247,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #824]
 .word 0xf90083a0
 .word 0xf9403fa0
-bl _p_76
+bl _p_77
 .word 0xaa0003e2
 .word 0xf9407fa0
 .word 0xf94083a1
@@ -7259,7 +7255,7 @@ bl _p_76
 .word 0xd2800003
 .word 0xd2800003
 .word 0xd2800004
-bl _p_69
+bl _p_70
 .word 0xf9007ba0
 .word 0xf94033b1
 .word 0xf942ba31
@@ -7288,7 +7284,7 @@ bl _p_37
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_77
+bl _p_78
 .loc 6 174 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -7316,8 +7312,8 @@ bl _p_77
 .word 0xeb1e033f
 .word 0x54000380
 .word 0xf9403fa0
-bl _p_78
-bl _p_53
+bl _p_79
+bl _p_54
 .word 0xb9802ae1
 .word 0xaa1603e2
 .word 0x8b0102c1
@@ -7328,7 +7324,7 @@ bl _p_53
 .word 0xf9400ee0
 .word 0xf94012e0
 .word 0xf9403fa0
-bl _p_76
+bl _p_77
 .word 0xaa0003e2
 .word 0xf9406fa0
 .word 0xf94073a1
@@ -7354,7 +7350,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xf9404ba0
 .word 0xf9404fa1
 .word 0xd2800003
-bl _p_79
+bl _p_80
 .loc 6 177 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -7373,7 +7369,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #832]
 .word 0xf9006fa0
 .word 0xf9403fa0
-bl _p_80
+bl _p_81
 .word 0xaa0003e2
 .word 0xf9406ba0
 .word 0xf9406fa1
@@ -7383,7 +7379,7 @@ bl _p_80
 .word 0xd2800003
 .word 0xf9000095
 .word 0xd2800003
-bl _p_69
+bl _p_70
 .loc 6 179 0
 .word 0xf94033b1
 .word 0xf9449a31
@@ -7401,17 +7397,17 @@ bl _p_69
 .word 0xf94047a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_81
+bl _p_82
 .word 0xf94033b1
 .word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf90063a0
 .word 0xf94063a0
 .word 0xb4000060
 .word 0xf94063a0
-bl _p_41
+bl _p_42
 .word 0x14000001
 .word 0xf94033b1
 .word 0xf9450631
@@ -7537,7 +7533,7 @@ ldr x16, [x16, #848]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90073a0
 .word 0xf9402bb1
@@ -7554,7 +7550,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #856]
 .word 0xaa1803e0
-bl _p_82
+bl _p_83
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940ea31
@@ -7573,7 +7569,7 @@ bl _p_82
 .word 0x9102a3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_74
+bl _p_75
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -7605,7 +7601,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #856]
 .word 0xaa1803e0
-bl _p_82
+bl _p_83
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf941aa31
@@ -7650,12 +7646,12 @@ bl _p_2
 .word 0xd28017e2
 .word 0xd2800802
 .word 0xd28017e3
-bl _p_83
+bl _p_84
 .word 0xf94073a1
 .word 0xf94057a2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_79
+bl _p_80
 .loc 6 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -7672,7 +7668,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #480]
 .word 0xaa1703e1
-bl _p_84
+bl _p_85
 .loc 6 561 0
 .word 0xf9402bb1
 .word 0xf942a231
@@ -7690,17 +7686,17 @@ bl _p_84
 .word 0xf9405ba0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_81
+bl _p_82
 .word 0xf9402bb1
 .word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf9006fa0
 .word 0xf9406fa0
 .word 0xb4000060
 .word 0xf9406fa0
-bl _p_41
+bl _p_42
 .word 0x14000001
 .word 0xf9402bb1
 .word 0xf9430e31
@@ -7743,7 +7739,7 @@ ldr x16, [x16, #872]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_85
+bl _p_86
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -7791,7 +7787,7 @@ ldr x16, [x16, #880]
 .word 0xb98023a2
 .word 0xd2800023
 .word 0xd2800023
-bl _p_86
+bl _p_87
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
@@ -7850,7 +7846,7 @@ ldr x16, [x16, #888]
 .word 0xd2800002
 .word 0x910123a3
 .word 0xf94027a3
-bl _p_87
+bl _p_88
 .loc 7 106 0
 .word 0xf94017b1
 .word 0xf940ae31
@@ -7918,7 +7914,7 @@ ldr x16, [x16, #896]
 .word 0xaa1903e1
 .word 0x9101a3a3
 .word 0xf94037a3
-bl _p_87
+bl _p_88
 .loc 7 112 0
 .word 0xf94027b1
 .word 0xf940a631
@@ -7991,7 +7987,7 @@ ldr x16, [x16, #904]
 .word 0xf9003fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_88
+bl _p_89
 .word 0xf90043a0
 .word 0xf94023b1
 .word 0xf940a231
@@ -8013,7 +8009,7 @@ bl _p_88
 .word 0xaa1a03e5
 .word 0xd2800006
 .word 0xd2800007
-bl _p_89
+bl _p_90
 .loc 7 325 0
 .word 0xf94023b1
 .word 0xf940f631
@@ -8029,7 +8025,7 @@ bl _p_89
 .word 0xaa1703e0
 .word 0x910183a1
 .word 0xaa1703e0
-bl _p_90
+bl _p_91
 .word 0xf94023b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -8093,7 +8089,7 @@ ldr x16, [x16, #912]
 .word 0xaa1403e0
 .word 0x9101c3a3
 .word 0xf9403ba3
-bl _p_91
+bl _p_92
 .loc 7 336 0
 .word 0xf9402fb1
 .word 0xf940ba31
@@ -8102,7 +8098,7 @@ bl _p_91
 .word 0xaa1403e0
 .word 0xf9402ba1
 .word 0xaa1403e0
-bl _p_90
+bl _p_91
 .word 0xf9402fb1
 .word 0xf940da31
 .word 0xb4000051
@@ -8166,7 +8162,7 @@ ldr x16, [x16, #920]
 .word 0x9101a3a4
 .word 0xf94037a4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 354 0
 .word 0xf9402bb1
 .word 0xf940be31
@@ -8185,14 +8181,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf9003ba0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf9412231
@@ -8205,7 +8201,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402bb1
 .word 0xf9415231
 .word 0xb4000051
@@ -8265,7 +8261,7 @@ ldr x16, [x16, #928]
 .word 0x9101c3a4
 .word 0xf9403ba4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 384 0
 .word 0xf9402fb1
 .word 0xf940be31
@@ -8284,14 +8280,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9412231
@@ -8304,7 +8300,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -8363,14 +8359,14 @@ ldr x16, [x16, #936]
 .word 0xf2a00020
 .word 0xd287de80
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 399 0
 .word 0xf9402fb1
 .word 0xf940d231
@@ -8387,14 +8383,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 403 0
 .word 0xf9402fb1
 .word 0xf9412a31
@@ -8413,14 +8409,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9418e31
@@ -8433,7 +8429,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .loc 7 410 0
 .word 0xf9402fb1
 .word 0xf941be31
@@ -8469,7 +8465,7 @@ bl _p_2
 .word 0x9101c3a3
 .word 0xf9403ba3
 .word 0xaa1903e6
-bl _p_94
+bl _p_95
 .word 0xf9402fb1
 .word 0xf9424631
 .word 0xb4000051
@@ -8486,7 +8482,7 @@ bl _p_94
 .word 0xaa1403e0
 .word 0xd2800001
 .word 0xf940029e
-bl _p_95
+bl _p_96
 .loc 7 413 0
 .word 0xf9402fb1
 .word 0xf9428631
@@ -8537,7 +8533,7 @@ ldr x16, [x16, #952]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -8568,7 +8564,7 @@ bl _p_96
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -8637,7 +8633,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_98
+bl _p_99
 .loc 7 488 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -8649,7 +8645,7 @@ bl _p_98
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_99
+bl _p_100
 .loc 7 490 0
 .word 0xf9401bb1
 .word 0xf9422231
@@ -8725,7 +8721,7 @@ ldr x16, [x16, #960]
 .word 0xaa1a03e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_100
+bl _p_101
 .word 0xf90033a0
 .word 0x53001c00
 .word 0xf9401bb1
@@ -8812,7 +8808,7 @@ ldr x16, [x16, #968]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_101
+bl _p_102
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -8827,7 +8823,7 @@ bl _p_101
 .word 0xf90033a0
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_102
+bl _p_103
 .word 0xf94033be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -8946,7 +8942,7 @@ ldr x16, [x16, #984]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -8973,7 +8969,7 @@ bl _p_96
 .word 0xf2bfffe1
 .word 0x910143a2
 .word 0xf9402ba2
-bl _p_103
+bl _p_104
 .word 0x53001c00
 .word 0xf9401bb1
 .word 0xf940ee31
@@ -8996,7 +8992,7 @@ bl _p_103
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_104
+bl _p_105
 .word 0x53001c00
 .word 0xf9401bb1
 .word 0xf9414631
@@ -9013,7 +9009,7 @@ bl _p_104
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_105
+bl _p_106
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -9030,7 +9026,7 @@ bl _p_105
 .word 0xd2800020
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_106
+bl _p_107
 .loc 7 567 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -9100,7 +9096,7 @@ ldr x16, [x16, #992]
 .word 0xd2800020
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_107
+bl _p_108
 .word 0xf94017b1
 .word 0xf9409631
 .word 0xb4000051
@@ -9120,7 +9116,7 @@ bl _p_107
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -9137,7 +9133,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0xf94013a1
 .word 0xaa1903e0
-bl _p_108
+bl _p_109
 .loc 7 605 0
 .word 0xf94017b1
 .word 0xf9412231
@@ -9147,7 +9143,7 @@ bl _p_108
 .word 0xd2800000
 .word 0xaa1903e0
 .word 0xd2800001
-bl _p_109
+bl _p_110
 .loc 7 606 0
 .word 0xf94017b1
 .word 0xf9414631
@@ -9212,7 +9208,7 @@ ldr x16, [x16, #1000]
 .word 0x910103a1
 .word 0xf94023a1
 .word 0xd2800002
-bl _p_110
+bl _p_111
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -9276,7 +9272,7 @@ ldr x16, [x16, #1008]
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -9299,7 +9295,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_111
+bl _p_112
 .loc 7 653 0
 .word 0xf9401fb1
 .word 0xf9410a31
@@ -9307,7 +9303,7 @@ bl _p_111
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_112
+bl _p_113
 .loc 7 654 0
 .word 0xf9401fb1
 .word 0xf9412631
@@ -9476,7 +9472,7 @@ ldr x1, [x16, #1048]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x2, [x16, #1056]
-bl _p_113
+bl _p_114
 .word 0xaa0003f8
 .loc 7 684 0
 .word 0xf9401fb1
@@ -9567,7 +9563,7 @@ ldr x16, [x16, #1064]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1072]
-bl _p_114
+bl _p_115
 .word 0x910123a0
 .word 0x910103a0
 .word 0xf94027a0
@@ -9629,7 +9625,7 @@ ldr x16, [x16, #1080]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1088]
-bl _p_115
+bl _p_116
 .word 0x910163a0
 .word 0x910123a0
 .word 0xf9402fa0
@@ -9699,7 +9695,7 @@ ldr x16, [x16, #1096]
 .word 0xf9002fa0
 .word 0xf9400fa0
 .word 0xf90033a0
-bl _p_116
+bl _p_117
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf940a231
@@ -9719,7 +9715,7 @@ bl _p_116
 .word 0x9100e3a3
 .word 0xf9401fa3
 .word 0xd2800004
-bl _p_117
+bl _p_118
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940f231
@@ -9788,7 +9784,7 @@ ldr x16, [x16, #1104]
 .word 0x910103a3
 .word 0xf94023a3
 .word 0xd2800004
-bl _p_117
+bl _p_118
 .word 0xf90033a0
 .word 0xf94017b1
 .word 0xf940ce31
@@ -9854,7 +9850,7 @@ ldr x16, [x16, #1112]
 .word 0x910183a5
 .word 0x910163a3
 .word 0xf9402fa3
-bl _p_117
+bl _p_118
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940c231
@@ -9919,14 +9915,14 @@ ldr x16, [x16, #1120]
 .word 0xf2a00020
 .word 0xd287e340
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 889 0
 .word 0xf9402bb1
 .word 0xf940d631
@@ -9943,14 +9939,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 896 0
 .word 0xf9402bb1
 .word 0xf9412e31
@@ -9960,7 +9956,7 @@ bl _p_41
 .word 0x9101c3a1
 .word 0x9101e3a2
 .word 0xaa1903e0
-bl _p_118
+bl _p_119
 .loc 7 901 0
 .word 0xf9402bb1
 .word 0xf9415231
@@ -9987,7 +9983,7 @@ bl _p_2
 .word 0xaa1603e1
 .word 0xaa1703e2
 .word 0xd2800003
-bl _p_119
+bl _p_120
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
@@ -10013,7 +10009,7 @@ bl _p_119
 .word 0x9101a3a3
 .word 0xf94037a3
 .word 0xaa1903e4
-bl _p_120
+bl _p_121
 .loc 7 911 0
 .word 0xf9402bb1
 .word 0xf9421a31
@@ -10064,7 +10060,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1144]
 bl _p_2
 .word 0xf9001ba0
-bl _p_121
+bl _p_122
 .word 0xf9400bb1
 .word 0xf9407631
 .word 0xb4000051
@@ -10152,7 +10148,7 @@ ldr x16, [x16, #1192]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_122
+bl _p_123
 .word 0xaa0003f9
 .word 0xf94013b1
 .word 0xf9407a31
@@ -10230,7 +10226,7 @@ ldr x16, [x16, #1208]
 .word 0xd2800002
 .word 0xd2800003
 .word 0xd2800004
-bl _p_123
+bl _p_124
 .word 0xf9400fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -10285,7 +10281,7 @@ ldr x16, [x16, #1216]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_124
+bl _p_125
 .loc 8 211 0
 .word 0xf94023b1
 .word 0xf9409a31
@@ -10293,7 +10289,7 @@ bl _p_124
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_125
+bl _p_126
 .loc 8 213 0
 .word 0xf94023b1
 .word 0xf940b631
@@ -10393,7 +10389,7 @@ ldr x16, [x16, #1224]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_88
+bl _p_89
 .word 0xf9003fa0
 .word 0xf94023b1
 .word 0xf940a231
@@ -10417,7 +10413,7 @@ ldr x15, [x16, #944]
 .word 0xf9402fa2
 .word 0xaa1903e3
 .word 0xd2800004
-bl _p_126
+bl _p_127
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940fe31
@@ -10578,12 +10574,12 @@ ldr x16, [x16, #1232]
 .word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf90083a0
 .word 0xf94083a0
 .word 0xb4000060
 .word 0xf94083a0
-bl _p_41
+bl _p_42
 .word 0x94000013
 .word 0x1400010f
 .word 0xf9006ba0
@@ -10595,12 +10591,12 @@ bl _p_41
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf90047a0
-bl _p_40
+bl _p_41
 .word 0xf90087a0
 .word 0xf94087a0
 .word 0xb4000060
 .word 0xf94087a0
-bl _p_41
+bl _p_42
 .word 0x94000002
 .word 0x140000fe
 .word 0xf9007fbe
@@ -10627,7 +10623,7 @@ bl _p_41
 .word 0xf90063a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_127
+bl _p_128
 .word 0xf94063be
 .word 0xf90003c0
 .word 0xf9401fb1
@@ -10640,7 +10636,7 @@ bl _p_127
 .word 0x9101a3a1
 .word 0xf94037a1
 .word 0xf940007e
-bl _p_110
+bl _p_111
 .word 0x53001c00
 .word 0xf9401fb1
 .word 0xf9431231
@@ -10671,7 +10667,7 @@ bl _p_110
 .word 0xf94047a1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_128
+bl _p_129
 .word 0xf9008ba0
 .word 0x53001c00
 .word 0xf9401fb1
@@ -10725,7 +10721,7 @@ ldr x1, [x16, #1240]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_129
+bl _p_130
 .word 0xf9401fb1
 .word 0xf9444e31
 .word 0xb4000051
@@ -10740,7 +10736,7 @@ bl _p_129
 .word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf9008ba0
 .word 0xf9401fb1
@@ -10762,7 +10758,7 @@ bl _p_72
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf9008ba0
 .word 0xf9401fb1
@@ -10773,7 +10769,7 @@ bl _p_75
 .word 0xd2800020
 .word 0xd2800000
 .word 0xd2800022
-bl _p_130
+bl _p_131
 .loc 8 578 0
 .word 0xf94023b1
 .word 0xf9400231
@@ -10801,7 +10797,7 @@ ldr x0, [x16, #1248]
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf9008ba0
 .word 0xf9401fb1
@@ -10809,7 +10805,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408ba0
-bl _p_131
+bl _p_132
 .loc 8 582 0
 .word 0xf94023b1
 .word 0xf9400231
@@ -10839,7 +10835,7 @@ bl _p_131
 .word 0x910163a1
 .word 0xf9402fa1
 .word 0xf940005e
-bl _p_100
+bl _p_101
 .word 0x53001c00
 .word 0xf9401fb1
 .word 0xf945fe31
@@ -10864,7 +10860,7 @@ bl _p_100
 .word 0x910143a1
 .word 0xf9402ba1
 .word 0xf940005e
-bl _p_132
+bl _p_133
 .word 0xf9401fb1
 .word 0xf9465a31
 .word 0xb4000051
@@ -10922,7 +10918,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1144]
 .word 0xd2800002
-bl _p_133
+bl _p_134
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9409e31
@@ -10976,7 +10972,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1272]
 bl _p_2
 .word 0xf9005ba0
-bl _p_134
+bl _p_135
 .word 0xf94027b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -11016,14 +11012,14 @@ bl _p_17
 .word 0xf2a00020
 .word 0xd287ed40
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 819 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11052,14 +11048,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287f040
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 824 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11073,7 +11069,7 @@ bl _p_41
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 8 826 0
 .word 0xf94027b1
 .word 0xf9420231
@@ -11091,7 +11087,7 @@ bl _p_2
 .word 0xf9005fa0
 .word 0xaa1903e1
 .word 0xaa1a03e2
-bl _p_136
+bl _p_137
 .word 0xf94027b1
 .word 0xf9424231
 .word 0xb4000051
@@ -11108,7 +11104,7 @@ bl _p_17
 .word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11131,7 +11127,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11146,7 +11142,7 @@ ldr x0, [x16, #1280]
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_137
+bl _p_138
 .word 0xf90063a0
 .word 0xf94027b1
 .word 0xf9431631
@@ -11175,7 +11171,7 @@ bl _p_37
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_77
+bl _p_78
 .loc 8 831 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11202,7 +11198,7 @@ ldr x0, [x16, #1248]
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
-bl _p_138
+bl _p_139
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf943ea31
@@ -11217,7 +11213,7 @@ bl _p_138
 .word 0xf9440a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_139
+bl _p_140
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11232,7 +11228,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1288]
 bl _p_2
 .word 0xf90077a0
-bl _p_140
+bl _p_141
 .word 0xf94027b1
 .word 0xf9445631
 .word 0xb4000051
@@ -11259,7 +11255,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1296]
 bl _p_2
 .word 0xf9006fa0
-bl _p_141
+bl _p_142
 .word 0xf94027b1
 .word 0xf944ba31
 .word 0xb4000051
@@ -11359,7 +11355,7 @@ ldr x15, [x16, #1336]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_143
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11391,7 +11387,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1144]
 .word 0xaa1403e0
 .word 0xd2800004
-bl _p_143
+bl _p_144
 .word 0xf94027b1
 .word 0xf946a631
 .word 0xb4000051
@@ -11474,7 +11470,7 @@ ldr x0, [x16, #1360]
 .word 0xf947c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11497,7 +11493,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11508,7 +11504,7 @@ bl _p_75
 .word 0xd2800060
 .word 0xd2800000
 .word 0xd2800062
-bl _p_130
+bl _p_131
 .loc 8 872 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11537,7 +11533,7 @@ ldr x0, [x16, #1248]
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -11545,7 +11541,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
-bl _p_131
+bl _p_132
 .loc 8 878 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11567,7 +11563,7 @@ bl _p_131
 .word 0x910263a1
 .word 0xf9404fa1
 .word 0xf940005e
-bl _p_100
+bl _p_101
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf9493a31
@@ -11579,7 +11575,7 @@ bl _p_100
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
-bl _p_144
+bl _p_145
 .loc 8 882 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -11658,14 +11654,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -11969,7 +11965,7 @@ ldr x16, [x16, #1384]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_145
+bl _p_146
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -12038,7 +12034,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #944]
 bl _p_2
 .word 0xf90027a0
-bl _p_146
+bl _p_147
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -12137,7 +12133,7 @@ ldr x15, [x16, #856]
 .word 0xaa1a03e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_147
+bl _p_148
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf940da31
@@ -12160,7 +12156,7 @@ bl _p_17
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12178,7 +12174,7 @@ bl _p_72
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12189,7 +12185,7 @@ bl _p_75
 .word 0xd2800020
 .word 0xd2800000
 .word 0xd2800022
-bl _p_130
+bl _p_131
 .loc 6 603 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -12213,7 +12209,7 @@ ldr x0, [x16, #1248]
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12221,7 +12217,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_131
+bl _p_132
 .loc 6 608 0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -12240,7 +12236,7 @@ bl _p_131
 .word 0x910123a1
 .word 0xf94027a1
 .word 0xf940033e
-bl _p_100
+bl _p_101
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12256,8 +12252,8 @@ bl _p_100
 .word 0xd63f0220
 .word 0xd29c7520
 .word 0xd29c7520
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9429a31
@@ -12269,7 +12265,7 @@ bl _p_93
 .word 0xd2802940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf9401bb1
 .word 0xf942c631
 .word 0xb4000051
@@ -12358,7 +12354,7 @@ ldr x15, [x16, #856]
 .word 0xaa1903e0
 .word 0x910103a1
 .word 0xf94023a1
-bl _p_148
+bl _p_149
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -12420,14 +12416,14 @@ ldr x16, [x16, #1416]
 .word 0xd63f0220
 .word 0xd29c72a0
 .word 0xd29c72a0
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 6 653 0
 .word 0xf9402bb1
 .word 0xf940c231
@@ -12454,7 +12450,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #856]
 .word 0xaa1903e0
-bl _p_82
+bl _p_83
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf9412231
@@ -12501,7 +12497,7 @@ ldr x1, [x16, #1424]
 .word 0xf9003ba0
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_127
+bl _p_128
 .word 0xf9403bbe
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -12514,7 +12510,7 @@ bl _p_127
 .word 0xf94037a1
 .word 0xaa1703e2
 .word 0xf940031e
-bl _p_110
+bl _p_111
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -12529,7 +12525,7 @@ bl _p_110
 .word 0xaa1803e0
 .word 0xaa1a03e1
 .word 0xf940031e
-bl _p_128
+bl _p_129
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -12554,8 +12550,8 @@ bl _p_128
 .word 0xd63f0220
 .word 0xd29c7520
 .word 0xd29c7520
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf942a231
@@ -12567,7 +12563,7 @@ bl _p_93
 .word 0xd2802940
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .word 0xf9402bb1
 .word 0xf942ce31
 .word 0xb4000051
@@ -12645,7 +12641,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1448]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -12722,7 +12718,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1488]
 .word 0xaa1403e0
-bl _p_150
+bl _p_151
 .word 0xf9009ba0
 .word 0xf94033b1
 .word 0xf941f631
@@ -12743,7 +12739,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1496]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -12839,7 +12835,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1488]
 .word 0xaa1703e0
-bl _p_150
+bl _p_151
 .word 0xf9009ba0
 .word 0xf94033b1
 .word 0xf9439e31
@@ -12860,7 +12856,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1520]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -12907,7 +12903,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1536]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -12954,7 +12950,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1552]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13001,7 +12997,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1568]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13048,7 +13044,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1584]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13064,7 +13060,7 @@ bl _p_149
 .word 0xf90093a0
 .word 0x910463a0
 .word 0xd2800001
-bl _p_151
+bl _p_152
 .word 0x910463a0
 .word 0x910343a0
 .word 0xf9408fa0
@@ -13114,7 +13110,7 @@ ldr x2, [x16, #1592]
 .word 0x9102e3a2
 .word 0xf9405fa2
 .word 0xf94063a3
-bl _p_152
+bl _p_153
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13131,7 +13127,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1600]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13179,7 +13175,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1616]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13227,7 +13223,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1632]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13274,7 +13270,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1648]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13321,7 +13317,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1664]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13362,7 +13358,7 @@ ldr x2, [x16, #1672]
 .word 0x91004001
 .word 0xf9400801
 .word 0xd2800000
-bl _p_153
+bl _p_154
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13379,7 +13375,7 @@ ldr x0, [x16, #1440]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x1, [x16, #1680]
-bl _p_149
+bl _p_150
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13420,7 +13416,7 @@ ldr x2, [x16, #1688]
 .word 0x91004001
 .word 0xf9400801
 .word 0xd2800000
-bl _p_154
+bl _p_155
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -13486,7 +13482,7 @@ bl _p_2
 .word 0xf9009ba0
 .word 0x9101e3a1
 .word 0xf9403fa1
-bl _p_155
+bl _p_156
 .word 0xf94033b1
 .word 0xf94ce631
 .word 0xb4000051
@@ -13555,7 +13551,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1712]
 .word 0x9100a3a0
 .word 0xf94017a0
-bl _p_156
+bl _p_157
 .word 0xf90023a0
 .word 0xf9400bb1
 .word 0xf9409a31
@@ -13628,7 +13624,7 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -13636,7 +13632,7 @@ bl _p_61
 .word 0xb4000094
 .word 0xaa1303e0
 .word 0xaa1303e0
-bl _p_41
+bl _p_42
 .word 0xaa1303e0
 .word 0xf94037b1
 .word 0xf9400231
@@ -13924,7 +13920,7 @@ ldr x16, [x16, #1736]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -13980,7 +13976,7 @@ ldr x16, [x16, #1744]
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_157
+bl _p_158
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -14028,7 +14024,7 @@ ldr x16, [x16, #1752]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_158
+bl _p_159
 .loc 9 358 0
 .word 0xf94017b1
 .word 0xf9407231
@@ -14040,7 +14036,7 @@ bl _p_158
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_160
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -14108,7 +14104,7 @@ ldr x16, [x16, #1760]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1768]
-bl _p_160
+bl _p_161
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -14290,7 +14286,7 @@ ldr x16, [x16, #1792]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -14347,7 +14343,7 @@ ldr x16, [x16, #1800]
 .word 0x39402322
 .word 0xd2800003
 .word 0xd2800003
-bl _p_157
+bl _p_158
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -14396,7 +14392,7 @@ ldr x16, [x16, #1808]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_158
+bl _p_159
 .loc 9 536 0
 .word 0xf94017b1
 .word 0xf9407231
@@ -14408,7 +14404,7 @@ bl _p_158
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_160
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -14481,14 +14477,14 @@ ldr x0, [x16, #672]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_41
+bl _p_42
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -14694,7 +14690,7 @@ ldr x16, [x16, #1824]
 .word 0xf90043a0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_88
+bl _p_89
 .word 0xf90047a0
 .word 0xf94027b1
 .word 0xf940ae31
@@ -14717,7 +14713,7 @@ bl _p_88
 .word 0xf94033a4
 .word 0xaa1803e5
 .word 0xd2800007
-bl _p_92
+bl _p_93
 .loc 10 135 0
 .word 0xf94027b1
 .word 0xf9410631
@@ -14738,7 +14734,7 @@ bl _p_17
 .word 0xaa1403e0
 .word 0xf94023a1
 .word 0xaa1403e0
-bl _p_90
+bl _p_91
 .word 0xf94027b1
 .word 0xf9415231
 .word 0xb4000051
@@ -14805,7 +14801,7 @@ ldr x16, [x16, #1832]
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_104
+bl _p_105
 .word 0x53001c00
 .word 0xf9401bb1
 .word 0xf940c231
@@ -14827,7 +14823,7 @@ ldr x1, [x16, #1840]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x2, [x16, #1848]
-bl _p_113
+bl _p_114
 .word 0xaa0003f8
 .loc 10 157 0
 .word 0xf9401bb1
@@ -14869,7 +14865,7 @@ ldr x1, [x16, #1856]
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x2, [x16, #1864]
-bl _p_113
+bl _p_114
 .word 0xaa0003f7
 .loc 10 163 0
 .word 0xf9401bb1
@@ -14966,14 +14962,14 @@ ldr x0, [x16, #672]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90057a0
 .word 0xb4000073
 .word 0xf94057a0
-bl _p_41
+bl _p_42
 .word 0xf94057a0
 .word 0xf94037b1
 .word 0xf9400231
@@ -15258,7 +15254,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1144]
 .word 0xd2800024
-bl _p_143
+bl _p_144
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -15339,7 +15335,7 @@ ldr x16, [x16, #1904]
 .word 0xf9400b21
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_143
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -15369,7 +15365,7 @@ adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x15, [x16, #1144]
 .word 0xd2800024
-bl _p_143
+bl _p_144
 .word 0xf94013b1
 .word 0xf940ee31
 .word 0xb4000051
@@ -15412,7 +15408,7 @@ ldr x16, [x16, #1912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_85
+bl _p_86
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -15460,7 +15456,7 @@ ldr x16, [x16, #1920]
 .word 0xb98023a2
 .word 0xd2800023
 .word 0xd2800023
-bl _p_86
+bl _p_87
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
@@ -15517,7 +15513,7 @@ ldr x16, [x16, #1928]
 .word 0xd2800002
 .word 0x9100e3a3
 .word 0xf9401fa3
-bl _p_87
+bl _p_88
 .loc 7 106 0
 .word 0xf94013b1
 .word 0xf940a631
@@ -15577,7 +15573,7 @@ ldr x16, [x16, #1936]
 .word 0xaa1803e1
 .word 0x910163a3
 .word 0xf9402fa3
-bl _p_87
+bl _p_88
 .loc 7 112 0
 .word 0xf94023b1
 .word 0xf940a231
@@ -15644,7 +15640,7 @@ ldr x16, [x16, #1944]
 .word 0xf90043a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_88
+bl _p_89
 .word 0xf90047a0
 .word 0xf94023b1
 .word 0xf940a231
@@ -15662,7 +15658,7 @@ bl _p_88
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_161
+bl _p_162
 .word 0xaa0003e9
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -15688,7 +15684,7 @@ bl _p_161
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0x910183a1
-bl _p_90
+bl _p_91
 .word 0xf94023b1
 .word 0xf9414631
 .word 0xb4000051
@@ -15756,7 +15752,7 @@ ldr x16, [x16, #1952]
 .word 0xf90043a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_162
+bl _p_163
 .word 0xaa0003e7
 .word 0xf94043a0
 .word 0xf94047a1
@@ -15774,7 +15770,7 @@ bl _p_162
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402ba1
-bl _p_90
+bl _p_91
 .word 0xf9402fb1
 .word 0xf9411231
 .word 0xb4000051
@@ -15837,7 +15833,7 @@ ldr x16, [x16, #1960]
 .word 0x9101a3a4
 .word 0xf94037a4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 354 0
 .word 0xf9402bb1
 .word 0xf940be31
@@ -15856,14 +15852,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf9003ba0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf9412231
@@ -15876,7 +15872,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402bb1
 .word 0xf9415231
 .word 0xb4000051
@@ -15936,7 +15932,7 @@ ldr x16, [x16, #1968]
 .word 0x9101c3a4
 .word 0xf9403ba4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 384 0
 .word 0xf9402fb1
 .word 0xf940be31
@@ -15955,14 +15951,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9412231
@@ -15975,7 +15971,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -16035,14 +16031,14 @@ ldr x16, [x16, #1976]
 .word 0xf2a00020
 .word 0xd287de80
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 399 0
 .word 0xf9402fb1
 .word 0xf940d631
@@ -16059,14 +16055,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 403 0
 .word 0xf9402fb1
 .word 0xf9412e31
@@ -16085,14 +16081,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9419231
@@ -16105,7 +16101,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .loc 7 410 0
 .word 0xf9402fb1
 .word 0xf941c231
@@ -16128,11 +16124,11 @@ bl _p_41
 .word 0xf9402ba0
 .word 0xf90057a0
 .word 0xf9403fa0
-bl _p_163
-bl _p_53
+bl _p_164
+bl _p_54
 .word 0xf90047a0
 .word 0xf9403fa0
-bl _p_164
+bl _p_165
 .word 0xaa0003e9
 .word 0xf94047a0
 .word 0xf9404ba2
@@ -16161,7 +16157,7 @@ bl _p_164
 .word 0xaa1403e0
 .word 0xd2800001
 .word 0xf940029e
-bl _p_95
+bl _p_96
 .loc 7 413 0
 .word 0xf9402fb1
 .word 0xf9429a31
@@ -16211,7 +16207,7 @@ ldr x16, [x16, #1984]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -16241,7 +16237,7 @@ bl _p_96
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -16304,7 +16300,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_98
+bl _p_99
 .loc 7 488 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -16315,7 +16311,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_99
+bl _p_100
 .loc 7 490 0
 .word 0xf94017b1
 .word 0xf941fe31
@@ -16389,7 +16385,7 @@ ldr x16, [x16, #1992]
 .word 0xf9002fa0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_165
+bl _p_166
 .word 0xaa0003e2
 .word 0xf9402fa0
 .word 0xaa1a03e1
@@ -16473,7 +16469,7 @@ ldr x16, [x16, #2000]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_101
+bl _p_102
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -16488,7 +16484,7 @@ bl _p_101
 .word 0xf90027a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_166
+bl _p_167
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xd2800021
@@ -16586,7 +16582,7 @@ ldr x16, [x16, #2016]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -16612,7 +16608,7 @@ bl _p_96
 .word 0xf2bfffe1
 .word 0x9100e3a2
 .word 0xf9401fa2
-bl _p_103
+bl _p_104
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf940e231
@@ -16634,7 +16630,7 @@ bl _p_103
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_104
+bl _p_105
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf9413631
@@ -16650,7 +16646,7 @@ bl _p_104
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_105
+bl _p_106
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -16666,7 +16662,7 @@ bl _p_105
 .word 0xf9400ba0
 .word 0xd2800021
 .word 0xd2800021
-bl _p_106
+bl _p_107
 .loc 7 567 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -16726,7 +16722,7 @@ ldr x16, [x16, #2024]
 .word 0xf9400fa0
 .word 0xd2800021
 .word 0xd2800021
-bl _p_107
+bl _p_108
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -16745,7 +16741,7 @@ bl _p_107
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -16761,7 +16757,7 @@ bl _p_97
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0xf94013a1
-bl _p_108
+bl _p_109
 .loc 7 605 0
 .word 0xf94017b1
 .word 0xf9411631
@@ -16770,7 +16766,7 @@ bl _p_108
 .word 0xf9400fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_109
+bl _p_110
 .loc 7 606 0
 .word 0xf94017b1
 .word 0xf9413631
@@ -16836,7 +16832,7 @@ ldr x16, [x16, #2032]
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_167
+bl _p_168
 .word 0xaa0003e3
 .word 0xf9402fa0
 .word 0x910103a1
@@ -16905,7 +16901,7 @@ ldr x16, [x16, #2040]
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -16927,14 +16923,14 @@ bl _p_97
 .word 0xf9401ba2
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_111
+bl _p_112
 .loc 7 653 0
 .word 0xf9401fb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_112
+bl _p_113
 .loc 7 654 0
 .word 0xf9401fb1
 .word 0xf9411a31
@@ -16990,12 +16986,12 @@ ldr x16, [x16, #2048]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_168
+bl _p_169
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
-.word 0xf94017a0
 bl _p_170
+.word 0xf94017a0
+bl _p_171
 .word 0xf9400000
 .word 0xf9400bb1
 .word 0xf9408231
@@ -17041,11 +17037,11 @@ ldr x16, [x16, #2056]
 .word 0xf90023a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_171
+bl _p_172
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94023a0
-bl _p_113
+bl _p_114
 .word 0xaa0003fa
 .loc 7 678 0
 .word 0xf94017b1
@@ -17090,11 +17086,11 @@ bl _p_113
 .word 0xf90027a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_172
+bl _p_173
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94027a0
-bl _p_113
+bl _p_114
 .word 0xaa0003f9
 .loc 7 684 0
 .word 0xf94017b1
@@ -17181,11 +17177,11 @@ ldr x16, [x16, #2064]
 .word 0xf9002ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_173
+bl _p_174
 .word 0xf90033a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_174
+bl _p_175
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -17253,11 +17249,11 @@ ldr x16, [x16, #2072]
 .word 0xf9003ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_175
+bl _p_176
 .word 0xf90047a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_176
+bl _p_177
 .word 0xaa0003e3
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -17333,7 +17329,7 @@ ldr x16, [x16, #2080]
 .word 0xf9003fa0
 .word 0xf9400fa0
 .word 0xf90033a0
-bl _p_116
+bl _p_117
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf940a231
@@ -17353,7 +17349,7 @@ bl _p_116
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_177
+bl _p_178
 .word 0xaa0003e6
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -17435,7 +17431,7 @@ ldr x16, [x16, #2088]
 .word 0xf90037a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_178
+bl _p_179
 .word 0xaa0003e6
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -17516,7 +17512,7 @@ ldr x16, [x16, #2096]
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_179
+bl _p_180
 .word 0xaa0003e6
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -17589,14 +17585,14 @@ ldr x16, [x16, #2104]
 .word 0xf2a00020
 .word 0xd287e340
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 889 0
 .word 0xf9402bb1
 .word 0xf940d231
@@ -17613,14 +17609,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 896 0
 .word 0xf9402bb1
 .word 0xf9412a31
@@ -17630,7 +17626,7 @@ bl _p_41
 .word 0x9101c3a1
 .word 0x9101e3a2
 .word 0xaa1903e0
-bl _p_118
+bl _p_119
 .loc 7 901 0
 .word 0xf9402bb1
 .word 0xf9414e31
@@ -17648,12 +17644,12 @@ bl _p_118
 .word 0xf90057a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_180
-bl _p_53
+bl _p_181
+bl _p_54
 .word 0xf90047a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_181
+bl _p_182
 .word 0xaa0003e7
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -17688,7 +17684,7 @@ bl _p_181
 .word 0x9101a3a3
 .word 0xf94037a3
 .word 0xaa1903e4
-bl _p_120
+bl _p_121
 .loc 7 911 0
 .word 0xf9402bb1
 .word 0xf9422e31
@@ -17734,11 +17730,11 @@ ldr x16, [x16, #2112]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_182
-bl _p_53
+bl _p_183
+bl _p_54
 .word 0xf90027a0
 .word 0xf94017a0
-bl _p_183
+bl _p_184
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf90023a0
@@ -17748,7 +17744,7 @@ bl _p_183
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_184
+bl _p_185
 .word 0xf94023a1
 .word 0xf9000001
 .loc 7 87 0
@@ -17758,22 +17754,22 @@ bl _p_184
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xf94017a0
-bl _p_185
 bl _p_186
+bl _p_187
 .word 0xf9001fa0
 .word 0xf94017a0
-bl _p_187
-bl _p_53
+bl _p_188
+bl _p_54
 .word 0xf9401fa2
 .word 0xf9001ba0
 .word 0xd2800001
-bl _p_188
+bl _p_189
 .word 0xf9400bb1
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_184
+bl _p_185
 .word 0xf9401ba1
 .word 0x91002000
 .word 0xf9000001
@@ -17823,18 +17819,18 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #2128]
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_122
+bl _p_123
 .word 0xaa0003f9
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-bl _p_189
+bl _p_190
 .word 0xf90023a0
 .word 0xb4000139
 .word 0xf9400320
@@ -17903,7 +17899,7 @@ ldr x16, [x16, #2136]
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_190
+bl _p_191
 .word 0xaa0003e5
 .word 0xf94023a0
 .word 0x9100c3a1
@@ -17965,7 +17961,7 @@ ldr x16, [x16, #2144]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_124
+bl _p_125
 .loc 8 211 0
 .word 0xf94023b1
 .word 0xf9409631
@@ -17973,7 +17969,7 @@ bl _p_124
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_125
+bl _p_126
 .loc 8 213 0
 .word 0xf94023b1
 .word 0xf940b231
@@ -18072,7 +18068,7 @@ ldr x16, [x16, #2152]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_88
+bl _p_89
 .word 0xf9003fa0
 .word 0xf94023b1
 .word 0xf940a231
@@ -18092,17 +18088,17 @@ bl _p_88
 .word 0xf9004ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_191
+bl _p_192
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
-.word 0xf9400fa0
-.word 0xf9400000
-bl _p_191
-.word 0xf9004fa0
+bl _p_170
 .word 0xf9400fa0
 .word 0xf9400000
 bl _p_192
+.word 0xf9004fa0
+.word 0xf9400fa0
+.word 0xf9400000
+bl _p_193
 .word 0xaa0003e7
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -18263,12 +18259,12 @@ ldr x16, [x16, #2160]
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf90077a0
 .word 0xf94077a0
 .word 0xb4000060
 .word 0xf94077a0
-bl _p_41
+bl _p_42
 .word 0x94000013
 .word 0x14000137
 .word 0xf9005fa0
@@ -18280,12 +18276,12 @@ bl _p_41
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf90037a0
-bl _p_40
+bl _p_41
 .word 0xf9007ba0
 .word 0xf9407ba0
 .word 0xb4000060
 .word 0xf9407ba0
-bl _p_41
+bl _p_42
 .word 0x94000002
 .word 0x14000126
 .word 0xf90073be
@@ -18312,7 +18308,7 @@ bl _p_41
 .word 0xf90057a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_127
+bl _p_128
 .word 0xf94057be
 .word 0xf90003c0
 .word 0xf94023b1
@@ -18322,15 +18318,15 @@ bl _p_127
 .word 0xf9403ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_193
+bl _p_194
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_194
+bl _p_195
 .word 0xaa0003e3
 .word 0xf94083a0
 .word 0xf94087a2
@@ -18368,15 +18364,15 @@ bl _p_194
 .word 0xf94037a0
 .word 0xf9008ba0
 .word 0xf94033a0
-bl _p_193
+bl _p_194
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408fa0
 .word 0xf940001e
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_195
+bl _p_196
 .word 0xaa0003e2
 .word 0xf94087a0
 .word 0xf9408ba1
@@ -18434,7 +18430,7 @@ ldr x1, [x16, #1240]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_129
+bl _p_130
 .word 0xf94023b1
 .word 0xf9448231
 .word 0xb4000051
@@ -18449,7 +18445,7 @@ bl _p_129
 .word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -18471,7 +18467,7 @@ bl _p_72
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -18482,7 +18478,7 @@ bl _p_75
 .word 0xd2800020
 .word 0xd2800000
 .word 0xd2800022
-bl _p_130
+bl _p_131
 .loc 8 578 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -18510,7 +18506,7 @@ ldr x0, [x16, #1248]
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -18518,7 +18514,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
-bl _p_131
+bl _p_132
 .loc 8 582 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -18544,15 +18540,15 @@ bl _p_131
 .word 0x3941e3a0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_193
+bl _p_194
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_196
+bl _p_197
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -18577,15 +18573,15 @@ bl _p_196
 .word 0x3941e3a0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_193
+bl _p_194
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_197
+bl _p_198
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -18649,11 +18645,11 @@ ldr x16, [x16, #2168]
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_198
+bl _p_199
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_199
+bl _p_200
 .word 0xaa0003e5
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -18710,11 +18706,11 @@ ldr x16, [x16, #2176]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_200
-bl _p_53
+bl _p_201
+bl _p_54
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_201
+bl _p_202
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9005ba0
@@ -18758,14 +18754,14 @@ bl _p_17
 .word 0xf2a00020
 .word 0xd287ed40
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 819 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -18794,14 +18790,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287f040
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 824 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -18815,7 +18811,7 @@ bl _p_41
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 8 826 0
 .word 0xf94027b1
 .word 0xf9421231
@@ -18826,16 +18822,16 @@ bl _p_135
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xf94033a0
-bl _p_202
+bl _p_203
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
-.word 0xf94033a0
-bl _p_202
-bl _p_53
-.word 0xf90063a0
+bl _p_170
 .word 0xf94033a0
 bl _p_203
+bl _p_54
+.word 0xf90063a0
+.word 0xf94033a0
+bl _p_204
 .word 0xaa0003e3
 .word 0xf94063a0
 .word 0xf9005fa0
@@ -18858,7 +18854,7 @@ bl _p_17
 .word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -18881,7 +18877,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -18896,7 +18892,7 @@ ldr x0, [x16, #1280]
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_137
+bl _p_138
 .word 0xf90063a0
 .word 0xf94027b1
 .word 0xf9434a31
@@ -18925,7 +18921,7 @@ bl _p_37
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_77
+bl _p_78
 .loc 8 831 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -18952,7 +18948,7 @@ ldr x0, [x16, #1248]
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
-bl _p_138
+bl _p_139
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf9441e31
@@ -18967,7 +18963,7 @@ bl _p_138
 .word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_139
+bl _p_140
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -18977,11 +18973,11 @@ bl _p_139
 .word 0xf94053a0
 .word 0x340015e0
 .word 0xf94033a0
-bl _p_204
-bl _p_53
+bl _p_205
+bl _p_54
 .word 0xf9007fa0
 .word 0xf94033a0
-bl _p_205
+bl _p_206
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf9007ba0
@@ -19012,7 +19008,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1296]
 bl _p_2
 .word 0xf90073a0
-bl _p_141
+bl _p_142
 .word 0xf94027b1
 .word 0xf944fe31
 .word 0xb4000051
@@ -19048,13 +19044,13 @@ bl _p_2
 bl _p_17
 .word 0xf94063a0
 .word 0xf94033a0
-bl _p_206
+bl _p_207
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9001401
 .word 0xf9005ba0
 .word 0xf94033a0
-bl _p_207
+bl _p_208
 .word 0xf9405ba1
 .word 0xf9002020
 
@@ -19111,7 +19107,7 @@ ldr x15, [x16, #1336]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_143
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -19141,10 +19137,10 @@ bl _p_142
 .word 0xf9005ba0
 .word 0xd2800000
 .word 0xf94033a0
-bl _p_208
+bl _p_209
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_209
+bl _p_210
 .word 0xaa0003e5
 .word 0xf94053a1
 .word 0xf94057a2
@@ -19186,13 +19182,13 @@ bl _p_2
 bl _p_17
 .word 0xf9405fa0
 .word 0xf94033a0
-bl _p_210
+bl _p_211
 .word 0xaa0003e1
 .word 0xf9405ba0
 .word 0xf9001401
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_211
+bl _p_212
 .word 0xf94057a1
 .word 0xf9002020
 
@@ -19234,7 +19230,7 @@ ldr x0, [x16, #2184]
 .word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -19257,7 +19253,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -19268,7 +19264,7 @@ bl _p_75
 .word 0xd2800060
 .word 0xd2800000
 .word 0xd2800062
-bl _p_130
+bl _p_131
 .loc 8 872 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -19297,7 +19293,7 @@ ldr x0, [x16, #1248]
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -19305,7 +19301,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
-bl _p_131
+bl _p_132
 .loc 8 878 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -19322,15 +19318,15 @@ bl _p_131
 .word 0x3941e3a0
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_202
+bl _p_203
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9405ba0
 .word 0xf940001e
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_212
+bl _p_213
 .word 0xaa0003e2
 .word 0xf94053a0
 .word 0xf94057a1
@@ -19346,7 +19342,7 @@ bl _p_212
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_144
+bl _p_145
 .loc 8 882 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -19425,14 +19421,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -19647,7 +19643,7 @@ ldr x16, [x16, #2200]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_85
+bl _p_86
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -19695,7 +19691,7 @@ ldr x16, [x16, #2208]
 .word 0xb98023a2
 .word 0xd2800023
 .word 0xd2800023
-bl _p_86
+bl _p_87
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
@@ -19752,7 +19748,7 @@ ldr x16, [x16, #2216]
 .word 0xd2800002
 .word 0x9100e3a3
 .word 0xf9401fa3
-bl _p_87
+bl _p_88
 .loc 7 106 0
 .word 0xf94013b1
 .word 0xf940a631
@@ -19812,7 +19808,7 @@ ldr x16, [x16, #2224]
 .word 0xaa1803e1
 .word 0x910163a3
 .word 0xf9402fa3
-bl _p_87
+bl _p_88
 .loc 7 112 0
 .word 0xf94023b1
 .word 0xf940a231
@@ -19879,7 +19875,7 @@ ldr x16, [x16, #2232]
 .word 0xf90043a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_88
+bl _p_89
 .word 0xf90047a0
 .word 0xf94023b1
 .word 0xf940a231
@@ -19897,7 +19893,7 @@ bl _p_88
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_213
+bl _p_214
 .word 0xaa0003e9
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -19923,7 +19919,7 @@ bl _p_213
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0x910183a1
-bl _p_90
+bl _p_91
 .word 0xf94023b1
 .word 0xf9414631
 .word 0xb4000051
@@ -19991,7 +19987,7 @@ ldr x16, [x16, #2240]
 .word 0xf90043a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_214
+bl _p_215
 .word 0xaa0003e7
 .word 0xf94043a0
 .word 0xf94047a1
@@ -20009,7 +20005,7 @@ bl _p_214
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402ba1
-bl _p_90
+bl _p_91
 .word 0xf9402fb1
 .word 0xf9411231
 .word 0xb4000051
@@ -20072,7 +20068,7 @@ ldr x16, [x16, #2248]
 .word 0x9101a3a4
 .word 0xf94037a4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 354 0
 .word 0xf9402bb1
 .word 0xf940be31
@@ -20091,14 +20087,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf9003ba0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf9412231
@@ -20111,7 +20107,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402bb1
 .word 0xf9415231
 .word 0xb4000051
@@ -20171,7 +20167,7 @@ ldr x16, [x16, #2256]
 .word 0x9101c3a4
 .word 0xf9403ba4
 .word 0xaa1903e6
-bl _p_92
+bl _p_93
 .loc 7 384 0
 .word 0xf9402fb1
 .word 0xf940be31
@@ -20190,14 +20186,14 @@ bl _p_92
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9412231
@@ -20210,7 +20206,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .word 0xf9402fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -20270,14 +20266,14 @@ ldr x16, [x16, #2264]
 .word 0xf2a00020
 .word 0xd287de80
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 399 0
 .word 0xf9402fb1
 .word 0xf940d631
@@ -20294,14 +20290,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 403 0
 .word 0xf9402fb1
 .word 0xf9412e31
@@ -20320,14 +20316,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287c5e0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xf90043a0
 .word 0xd287c9e0
 .word 0xf2a00020
 .word 0xd287c9e0
 .word 0xf2a00020
-bl _p_54
-bl _p_93
+bl _p_55
+bl _p_94
 .word 0xf90047a0
 .word 0xf9402fb1
 .word 0xf9419231
@@ -20340,7 +20336,7 @@ bl _p_93
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_41
+bl _p_42
 .loc 7 410 0
 .word 0xf9402fb1
 .word 0xf941c231
@@ -20363,11 +20359,11 @@ bl _p_41
 .word 0xf9402ba0
 .word 0xf90057a0
 .word 0xf9403fa0
-bl _p_215
-bl _p_53
+bl _p_216
+bl _p_54
 .word 0xf90047a0
 .word 0xf9403fa0
-bl _p_216
+bl _p_217
 .word 0xaa0003e9
 .word 0xf94047a0
 .word 0xf9404ba2
@@ -20396,7 +20392,7 @@ bl _p_216
 .word 0xaa1403e0
 .word 0xd2800001
 .word 0xf940029e
-bl _p_95
+bl _p_96
 .loc 7 413 0
 .word 0xf9402fb1
 .word 0xf9429a31
@@ -20446,7 +20442,7 @@ ldr x16, [x16, #2272]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -20476,7 +20472,7 @@ bl _p_96
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -20539,7 +20535,7 @@ bl _p_97
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_98
+bl _p_99
 .loc 7 488 0
 .word 0xf9401bb1
 .word 0xf9400231
@@ -20550,7 +20546,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_99
+bl _p_100
 .loc 7 490 0
 .word 0xf94017b1
 .word 0xf941fe31
@@ -20624,7 +20620,7 @@ ldr x16, [x16, #2280]
 .word 0xf9002fa0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_217
+bl _p_218
 .word 0xaa0003e2
 .word 0xf9402fa0
 .word 0xaa1a03e1
@@ -20708,7 +20704,7 @@ ldr x16, [x16, #2288]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_101
+bl _p_102
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -20723,7 +20719,7 @@ bl _p_101
 .word 0xf90027a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_218
+bl _p_219
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xd2800021
@@ -20821,7 +20817,7 @@ ldr x16, [x16, #2304]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_96
+bl _p_97
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -20847,7 +20843,7 @@ bl _p_96
 .word 0xf2bfffe1
 .word 0x9100e3a2
 .word 0xf9401fa2
-bl _p_103
+bl _p_104
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf940e231
@@ -20869,7 +20865,7 @@ bl _p_103
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_104
+bl _p_105
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf9413631
@@ -20885,7 +20881,7 @@ bl _p_104
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_105
+bl _p_106
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -20901,7 +20897,7 @@ bl _p_105
 .word 0xf9400ba0
 .word 0xd2800021
 .word 0xd2800021
-bl _p_106
+bl _p_107
 .loc 7 567 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -20961,7 +20957,7 @@ ldr x16, [x16, #2312]
 .word 0xf9400fa0
 .word 0xd2800021
 .word 0xd2800021
-bl _p_107
+bl _p_108
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -20980,7 +20976,7 @@ bl _p_107
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -20996,7 +20992,7 @@ bl _p_97
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0xf94013a1
-bl _p_108
+bl _p_109
 .loc 7 605 0
 .word 0xf94017b1
 .word 0xf9411631
@@ -21005,7 +21001,7 @@ bl _p_108
 .word 0xf9400fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_109
+bl _p_110
 .loc 7 606 0
 .word 0xf94017b1
 .word 0xf9413631
@@ -21071,7 +21067,7 @@ ldr x16, [x16, #2320]
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_219
+bl _p_220
 .word 0xaa0003e3
 .word 0xf9402fa0
 .word 0x910103a1
@@ -21140,7 +21136,7 @@ ldr x16, [x16, #2328]
 .word 0xf2a08001
 .word 0xd2800002
 .word 0xf2a0ac02
-bl _p_97
+bl _p_98
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -21162,14 +21158,14 @@ bl _p_97
 .word 0xf9401ba2
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_111
+bl _p_112
 .loc 7 653 0
 .word 0xf9401fb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_112
+bl _p_113
 .loc 7 654 0
 .word 0xf9401fb1
 .word 0xf9411a31
@@ -21225,12 +21221,12 @@ ldr x16, [x16, #2336]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_220
+bl _p_221
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf94017a0
-bl _p_221
+bl _p_222
 .word 0xf9400000
 .word 0xf9400bb1
 .word 0xf9408231
@@ -21276,11 +21272,11 @@ ldr x16, [x16, #2344]
 .word 0xf90023a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_222
+bl _p_223
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94023a0
-bl _p_113
+bl _p_114
 .word 0xaa0003fa
 .loc 7 678 0
 .word 0xf94017b1
@@ -21325,11 +21321,11 @@ bl _p_113
 .word 0xf90027a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_223
+bl _p_224
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94027a0
-bl _p_113
+bl _p_114
 .word 0xaa0003f9
 .loc 7 684 0
 .word 0xf94017b1
@@ -21416,11 +21412,11 @@ ldr x16, [x16, #2352]
 .word 0xf9002ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_224
+bl _p_225
 .word 0xf90033a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_225
+bl _p_226
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -21488,11 +21484,11 @@ ldr x16, [x16, #2360]
 .word 0xf9003ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_226
+bl _p_227
 .word 0xf90047a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_227
+bl _p_228
 .word 0xaa0003e3
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -21568,7 +21564,7 @@ ldr x16, [x16, #2368]
 .word 0xf9003fa0
 .word 0xf9400fa0
 .word 0xf90033a0
-bl _p_116
+bl _p_117
 .word 0xf90037a0
 .word 0xf94013b1
 .word 0xf940a231
@@ -21588,7 +21584,7 @@ bl _p_116
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_228
+bl _p_229
 .word 0xaa0003e6
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -21670,7 +21666,7 @@ ldr x16, [x16, #2376]
 .word 0xf90037a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_229
+bl _p_230
 .word 0xaa0003e6
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -21751,7 +21747,7 @@ ldr x16, [x16, #2384]
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_230
+bl _p_231
 .word 0xaa0003e6
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -21824,14 +21820,14 @@ ldr x16, [x16, #2392]
 .word 0xf2a00020
 .word 0xd287e340
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 889 0
 .word 0xf9402bb1
 .word 0xf940d231
@@ -21848,14 +21844,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287e0c0
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 7 896 0
 .word 0xf9402bb1
 .word 0xf9412a31
@@ -21865,7 +21861,7 @@ bl _p_41
 .word 0x9101c3a1
 .word 0x9101e3a2
 .word 0xaa1903e0
-bl _p_118
+bl _p_119
 .loc 7 901 0
 .word 0xf9402bb1
 .word 0xf9414e31
@@ -21883,12 +21879,12 @@ bl _p_118
 .word 0xf90057a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_231
-bl _p_53
+bl _p_232
+bl _p_54
 .word 0xf90047a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_232
+bl _p_233
 .word 0xaa0003e7
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -21923,7 +21919,7 @@ bl _p_232
 .word 0x9101a3a3
 .word 0xf94037a3
 .word 0xaa1903e4
-bl _p_120
+bl _p_121
 .loc 7 911 0
 .word 0xf9402bb1
 .word 0xf9422e31
@@ -21969,11 +21965,11 @@ ldr x16, [x16, #2400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_233
-bl _p_53
+bl _p_234
+bl _p_54
 .word 0xf90027a0
 .word 0xf94017a0
-bl _p_234
+bl _p_235
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf90023a0
@@ -21983,7 +21979,7 @@ bl _p_234
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_235
+bl _p_236
 .word 0xf94023a1
 .word 0xf9000001
 .loc 7 87 0
@@ -21993,22 +21989,22 @@ bl _p_235
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xf94017a0
-bl _p_236
-bl _p_186
+bl _p_237
+bl _p_187
 .word 0xf9001fa0
 .word 0xf94017a0
-bl _p_237
-bl _p_53
+bl _p_238
+bl _p_54
 .word 0xf9401fa2
 .word 0xf9001ba0
 .word 0xd2800001
-bl _p_238
+bl _p_239
 .word 0xf9400bb1
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_235
+bl _p_236
 .word 0xf9401ba1
 .word 0x91002000
 .word 0xf9000001
@@ -22058,18 +22054,18 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #2128]
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_122
+bl _p_123
 .word 0xaa0003f9
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-bl _p_239
+bl _p_240
 .word 0xf90023a0
 .word 0xb4000139
 .word 0xf9400320
@@ -22138,7 +22134,7 @@ ldr x16, [x16, #2416]
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_240
+bl _p_241
 .word 0xaa0003e5
 .word 0xf94023a0
 .word 0x9100c3a1
@@ -22200,7 +22196,7 @@ ldr x16, [x16, #2424]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_124
+bl _p_125
 .loc 8 211 0
 .word 0xf94023b1
 .word 0xf9409631
@@ -22208,7 +22204,7 @@ bl _p_124
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_125
+bl _p_126
 .loc 8 213 0
 .word 0xf94023b1
 .word 0xf940b231
@@ -22307,7 +22303,7 @@ ldr x16, [x16, #2432]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_88
+bl _p_89
 .word 0xf9003fa0
 .word 0xf94023b1
 .word 0xf940a231
@@ -22327,17 +22323,17 @@ bl _p_88
 .word 0xf9004ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_241
+bl _p_242
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
-.word 0xf9400fa0
-.word 0xf9400000
-bl _p_241
-.word 0xf9004fa0
+bl _p_170
 .word 0xf9400fa0
 .word 0xf9400000
 bl _p_242
+.word 0xf9004fa0
+.word 0xf9400fa0
+.word 0xf9400000
+bl _p_243
 .word 0xaa0003e7
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -22498,12 +22494,12 @@ ldr x16, [x16, #2440]
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_40
+bl _p_41
 .word 0xf90077a0
 .word 0xf94077a0
 .word 0xb4000060
 .word 0xf94077a0
-bl _p_41
+bl _p_42
 .word 0x94000013
 .word 0x14000137
 .word 0xf9005fa0
@@ -22515,12 +22511,12 @@ bl _p_41
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf90037a0
-bl _p_40
+bl _p_41
 .word 0xf9007ba0
 .word 0xf9407ba0
 .word 0xb4000060
 .word 0xf9407ba0
-bl _p_41
+bl _p_42
 .word 0x94000002
 .word 0x14000126
 .word 0xf90073be
@@ -22547,7 +22543,7 @@ bl _p_41
 .word 0xf90057a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_127
+bl _p_128
 .word 0xf94057be
 .word 0xf90003c0
 .word 0xf94023b1
@@ -22557,15 +22553,15 @@ bl _p_127
 .word 0xf9403ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_243
+bl _p_244
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_244
+bl _p_245
 .word 0xaa0003e3
 .word 0xf94083a0
 .word 0xf94087a2
@@ -22603,15 +22599,15 @@ bl _p_244
 .word 0xf94037a0
 .word 0xf9008ba0
 .word 0xf94033a0
-bl _p_243
+bl _p_244
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408fa0
 .word 0xf940001e
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_245
+bl _p_246
 .word 0xaa0003e2
 .word 0xf94087a0
 .word 0xf9408ba1
@@ -22669,7 +22665,7 @@ ldr x1, [x16, #1240]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_129
+bl _p_130
 .word 0xf94023b1
 .word 0xf9448231
 .word 0xb4000051
@@ -22684,7 +22680,7 @@ bl _p_129
 .word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -22706,7 +22702,7 @@ bl _p_72
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -22717,7 +22713,7 @@ bl _p_75
 .word 0xd2800020
 .word 0xd2800000
 .word 0xd2800022
-bl _p_130
+bl _p_131
 .loc 8 578 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -22745,7 +22741,7 @@ ldr x0, [x16, #1248]
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90083a0
 .word 0xf94023b1
@@ -22753,7 +22749,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
-bl _p_131
+bl _p_132
 .loc 8 582 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -22779,15 +22775,15 @@ bl _p_131
 .word 0xb9807ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_243
+bl _p_244
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_246
+bl _p_247
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -22812,15 +22808,15 @@ bl _p_246
 .word 0xb9807ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_243
+bl _p_244
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9408ba0
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_247
+bl _p_248
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -22884,11 +22880,11 @@ ldr x16, [x16, #2448]
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_248
+bl _p_249
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_249
+bl _p_250
 .word 0xaa0003e5
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -22945,11 +22941,11 @@ ldr x16, [x16, #2456]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_250
-bl _p_53
+bl _p_251
+bl _p_54
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_251
+bl _p_252
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9005ba0
@@ -22993,14 +22989,14 @@ bl _p_17
 .word 0xf2a00020
 .word 0xd287ed40
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 819 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23029,14 +23025,14 @@ bl _p_41
 .word 0xf2a00020
 .word 0xd287f040
 .word 0xf2a00020
-bl _p_54
+bl _p_55
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_41
+bl _p_42
 .loc 8 824 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23050,7 +23046,7 @@ bl _p_41
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_135
+bl _p_136
 .loc 8 826 0
 .word 0xf94027b1
 .word 0xf9421231
@@ -23061,16 +23057,16 @@ bl _p_135
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xf94033a0
-bl _p_252
+bl _p_253
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
-.word 0xf94033a0
-bl _p_252
-bl _p_53
-.word 0xf90063a0
+bl _p_170
 .word 0xf94033a0
 bl _p_253
+bl _p_54
+.word 0xf90063a0
+.word 0xf94033a0
+bl _p_254
 .word 0xaa0003e3
 .word 0xf94063a0
 .word 0xf9005fa0
@@ -23093,7 +23089,7 @@ bl _p_17
 .word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23116,7 +23112,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23131,7 +23127,7 @@ ldr x0, [x16, #1280]
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_137
+bl _p_138
 .word 0xf90063a0
 .word 0xf94027b1
 .word 0xf9434a31
@@ -23160,7 +23156,7 @@ bl _p_37
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_77
+bl _p_78
 .loc 8 831 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23187,7 +23183,7 @@ ldr x0, [x16, #1248]
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
-bl _p_138
+bl _p_139
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf9441e31
@@ -23202,7 +23198,7 @@ bl _p_138
 .word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_139
+bl _p_140
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23212,11 +23208,11 @@ bl _p_139
 .word 0xf94053a0
 .word 0x340015e0
 .word 0xf94033a0
-bl _p_254
-bl _p_53
+bl _p_255
+bl _p_54
 .word 0xf9007fa0
 .word 0xf94033a0
-bl _p_255
+bl _p_256
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf9007ba0
@@ -23247,7 +23243,7 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x0, [x16, #1296]
 bl _p_2
 .word 0xf90073a0
-bl _p_141
+bl _p_142
 .word 0xf94027b1
 .word 0xf944fe31
 .word 0xb4000051
@@ -23283,13 +23279,13 @@ bl _p_2
 bl _p_17
 .word 0xf94063a0
 .word 0xf94033a0
-bl _p_256
+bl _p_257
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9001401
 .word 0xf9005ba0
 .word 0xf94033a0
-bl _p_257
+bl _p_258
 .word 0xf9405ba1
 .word 0xf9002020
 
@@ -23346,7 +23342,7 @@ ldr x15, [x16, #1336]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_143
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23376,10 +23372,10 @@ bl _p_142
 .word 0xf9005ba0
 .word 0xd2800000
 .word 0xf94033a0
-bl _p_258
+bl _p_259
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_259
+bl _p_260
 .word 0xaa0003e5
 .word 0xf94053a1
 .word 0xf94057a2
@@ -23421,13 +23417,13 @@ bl _p_2
 bl _p_17
 .word 0xf9405fa0
 .word 0xf94033a0
-bl _p_260
+bl _p_261
 .word 0xaa0003e1
 .word 0xf9405ba0
 .word 0xf9001401
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_261
+bl _p_262
 .word 0xf94057a1
 .word 0xf9002020
 
@@ -23469,7 +23465,7 @@ ldr x0, [x16, #2184]
 .word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_72
+bl _p_73
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23492,7 +23488,7 @@ bl _p_72
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23503,7 +23499,7 @@ bl _p_75
 .word 0xd2800060
 .word 0xd2800000
 .word 0xd2800062
-bl _p_130
+bl _p_131
 .loc 8 872 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23532,7 +23528,7 @@ ldr x0, [x16, #1248]
 .word 0xf9401001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_75
+bl _p_76
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
@@ -23540,7 +23536,7 @@ bl _p_75
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
-bl _p_131
+bl _p_132
 .loc 8 878 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23557,15 +23553,15 @@ bl _p_131
 .word 0xb9807ba0
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_252
+bl _p_253
 .word 0x3980ac10
 .word 0xb5000050
-bl _p_169
+bl _p_170
 .word 0xf9405ba0
 .word 0xf940001e
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_262
+bl _p_263
 .word 0xaa0003e2
 .word 0xf94053a0
 .word 0xf94057a1
@@ -23581,7 +23577,7 @@ bl _p_262
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_144
+bl _p_145
 .loc 8 882 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -23660,14 +23656,14 @@ ldr x0, [x16, #672]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_62
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_41
+bl _p_42
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -23907,7 +23903,7 @@ bl _p_2
 .word 0xd2880003
 .word 0x9100e3a4
 .word 0xf9401fa4
-bl _p_263
+bl _p_264
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -24018,10 +24014,10 @@ ldr x16, [x16, #2488]
 .word 0x910143a0
 .word 0xf90047a0
 .word 0xf94033a0
-bl _p_264
+bl _p_265
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_265
+bl _p_266
 .word 0xaa0003e3
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -24104,7 +24100,7 @@ ldr x16, [x16, #2496]
 .word 0xf90047a0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_88
+bl _p_89
 .word 0xf9004ba0
 .word 0xf94027b1
 .word 0xf940ae31
@@ -24127,7 +24123,7 @@ bl _p_88
 .word 0xf94033a4
 .word 0xaa1803e5
 .word 0xd2800007
-bl _p_92
+bl _p_93
 .loc 10 135 0
 .word 0xf94027b1
 .word 0xf9410631
@@ -24147,7 +24143,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0xf94023a1
-bl _p_90
+bl _p_91
 .word 0xf94027b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -24324,10 +24320,10 @@ ldr x16, [x16, #2528]
 .word 0x910143a0
 .word 0xf90047a0
 .word 0xf94033a0
-bl _p_266
+bl _p_267
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_267
+bl _p_268
 .word 0xaa0003e3
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -24410,7 +24406,7 @@ ldr x16, [x16, #2536]
 .word 0xf90047a0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_88
+bl _p_89
 .word 0xf9004ba0
 .word 0xf94027b1
 .word 0xf940ae31
@@ -24433,7 +24429,7 @@ bl _p_88
 .word 0xf94033a4
 .word 0xaa1803e5
 .word 0xd2800007
-bl _p_92
+bl _p_93
 .loc 10 135 0
 .word 0xf94027b1
 .word 0xf9410631
@@ -24453,7 +24449,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0xf94023a1
-bl _p_90
+bl _p_91
 .word 0xf94027b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -25277,1842 +25273,1850 @@ add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
 .word 6590
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
+	.no_dead_strip plt_BarcodeTestApp_BaseViewModel_set_Path_string
+plt_BarcodeTestApp_BaseViewModel_set_Path_string:
 _p_39:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
 .word 6595
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_40:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 6598
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+.word 6600
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_41:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 6637
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
+.word 6603
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_42:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 6665
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 6642
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_43:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 6668
-	.no_dead_strip plt_BarcodeTestApp_BaseViewModel_TakePhoto
-plt_BarcodeTestApp_BaseViewModel_TakePhoto:
+.word 6670
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_44:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 6671
-	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
-plt_System_Threading_Tasks_Task_GetAwaiter:
+.word 6673
+	.no_dead_strip plt_BarcodeTestApp_BaseViewModel_TakePhoto
+plt_BarcodeTestApp_BaseViewModel_TakePhoto:
 _p_45:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
 .word 6676
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
+	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
+plt_System_Threading_Tasks_Task_GetAwaiter:
 _p_46:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 6679
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_BarcodeTestApp_BaseViewModel__c__async2_System_Runtime_CompilerServices_TaskAwaiter__BarcodeTestApp_BaseViewModel__c__async2_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_BarcodeTestApp_BaseViewModel__c__async2_System_Runtime_CompilerServices_TaskAwaiter__BarcodeTestApp_BaseViewModel__c__async2_:
+.word 6681
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
 _p_47:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 6682
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
+.word 6684
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_BarcodeTestApp_BaseViewModel__c__async2_System_Runtime_CompilerServices_TaskAwaiter__BarcodeTestApp_BaseViewModel__c__async2_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_BarcodeTestApp_BaseViewModel__c__async2_System_Runtime_CompilerServices_TaskAwaiter__BarcodeTestApp_BaseViewModel__c__async2_:
 _p_48:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 6694
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+.word 6687
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_49:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 6697
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 6699
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_50:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 6700
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
+.word 6702
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_51:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 6729
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+.word 6705
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
 _p_52:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 6737
-	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
-plt__jit_icall_ves_icall_object_new_specific:
+.word 6734
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_53:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 6756
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+.word 6742
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
 _p_54:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 6788
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
+.word 6761
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_55:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 6817
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
+.word 6793
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
 _p_56:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 6837
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
+.word 6822
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
 _p_57:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 6878
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
+.word 6842
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
 _p_58:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 6919
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
+.word 6883
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
 _p_59:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 6960
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+.word 6924
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
 _p_60:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 6983
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+.word 6965
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_61:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 6986
-	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
-plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
+.word 6988
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_62:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 7024
-	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
-plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
+.word 6991
+	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
+plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_63:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 7027
-	.no_dead_strip plt_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_MoveNext
-plt_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_MoveNext:
+.word 7029
+	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
+plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_64:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 7030
-	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
-plt_System_Threading_ExecutionContextSwitcher_Undo:
+.word 7032
+	.no_dead_strip plt_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_MoveNext
+plt_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_MoveNext:
 _p_65:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
 .word 7035
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
+	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
+plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_66:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 7056
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
+.word 7040
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
 _p_67:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 7102
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
+.word 7061
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
 _p_68:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 7110
-	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
-plt__jit_icall_mono_gsharedvt_constrained_call:
+.word 7107
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
 _p_69:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 7118
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__BarcodeTestApp_BaseViewModel__TakePhotoc__async0_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__BarcodeTestApp_BaseViewModel__TakePhotoc__async0_:
+.word 7115
+	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
+plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_70:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 7152
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
+.word 7123
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__BarcodeTestApp_BaseViewModel__TakePhotoc__async0_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_BarcodeTestApp_BaseViewModel__TakePhotoc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__BarcodeTestApp_BaseViewModel__TakePhotoc__async0_:
 _p_71:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 7200
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+.word 7157
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
 _p_72:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 7249
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+.word 7205
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_73:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 7252
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+.word 7254
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_74:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 7255
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
+.word 7257
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_75:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 7258
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
+.word 7260
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
 _p_76:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 7261
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+.word 7263
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
 _p_77:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 7269
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
+.word 7266
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_78:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 7272
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+.word 7274
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
 _p_79:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 7280
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
+.word 7277
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_80:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 7283
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+.word 7285
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
 _p_81:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 7291
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
+.word 7288
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_82:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 7294
-	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
-plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
+.word 7296
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_83:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 7313
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_UnsafeOnCompleted_System_Action:
+.word 7299
+	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
+plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_84:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 7350
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
-plt_System_Threading_Tasks_Task__ctor:
+.word 7318
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_UnsafeOnCompleted_System_Action:
 _p_85:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 7371
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
-plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
+.word 7355
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
+plt_System_Threading_Tasks_Task__ctor:
 _p_86:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 7374
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+.word 7376
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
+plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_87:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 7377
-	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
+.word 7379
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_88:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 7380
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 7382
+	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_89:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 7383
-	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
+.word 7385
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_90:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 7402
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 7388
+	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_91:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 7405
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 7407
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_92:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 7424
-	.no_dead_strip plt_System_Environment_GetResourceString_string
-plt_System_Environment_GetResourceString_string:
+.word 7410
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_93:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 7427
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.word 7429
+	.no_dead_strip plt_System_Environment_GetResourceString_string
+plt_System_Environment_GetResourceString_string:
 _p_94:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 7430
-	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
-plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
+.word 7432
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_95:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 7449
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
-plt_System_Threading_Tasks_Task_get_IsCompleted:
+.word 7435
+	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
+plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_96:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 7452
-	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
-plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
+.word 7454
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
+plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_97:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 7455
-	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
-plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
+.word 7457
+	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
+plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_98:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 7458
-	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
-plt_System_Threading_Tasks_Task_FinishStageThree:
+.word 7460
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
+plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_99:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 7461
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
+.word 7463
+	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
+plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_100:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 7464
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
-plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
+.word 7466
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_101:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 7483
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
+.word 7469
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
+plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_102:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 7486
-	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
+.word 7488
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_103:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 7505
-	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
-plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
+.word 7491
+	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_104:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 7508
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
-plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
+.word 7510
+	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
+plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_105:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 7511
-	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
-plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
+.word 7513
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
+plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_106:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 7514
-	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
-plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
+.word 7516
+	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
+plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_107:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 7517
-	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
-plt_System_Threading_Tasks_Task_AddException_object:
+.word 7519
+	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
+plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_108:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 7520
-	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
-plt_System_Threading_Tasks_Task_Finish_bool:
+.word 7522
+	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
+plt_System_Threading_Tasks_Task_AddException_object:
 _p_109:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 7523
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
+.word 7525
+	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
+plt_System_Threading_Tasks_Task_Finish_bool:
 _p_110:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 7526
-	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
-plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
+.word 7528
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_111:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 7545
-	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
-plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
+.word 7531
+	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
+plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_112:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 7548
-	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+.word 7550
+	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
+plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_113:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 7551
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
+.word 7553
+	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_114:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 7559
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 7556
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_115:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 7578
-	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
-plt_System_Threading_Tasks_TaskScheduler_get_Current:
+.word 7564
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_116:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 7597
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
+.word 7583
+	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
+plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_117:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 7600
-	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
-plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
+.word 7602
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_118:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 7619
-	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
+.word 7605
+	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
+plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_119:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 7622
-	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+.word 7624
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_120:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 7641
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 7627
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_121:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 7644
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+.word 7646
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_122:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 7663
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.word 7649
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
 _p_123:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 7682
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
+.word 7668
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_124:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 7701
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
+.word 7687
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_125:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 7704
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.word 7706
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_126:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 7707
-	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
-plt_System_OperationCanceledException_get_CancellationToken:
+.word 7709
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_127:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 7726
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
+.word 7712
+	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
+plt_System_OperationCanceledException_get_CancellationToken:
 _p_128:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 7729
-	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
-plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
+.word 7731
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
 _p_129:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 7748
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
+.word 7734
+	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
+plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_130:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 7751
-	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
-plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
+.word 7753
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_131:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 7754
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+.word 7756
+	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
+plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_132:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 7757
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+.word 7759
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_133:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 7776
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 7762
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_134:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 7795
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
-plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
+.word 7781
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_135:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 7814
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+.word 7800
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
+plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_136:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 7817
-	.no_dead_strip plt_System_Delegate_get_Method
-plt_System_Delegate_get_Method:
+.word 7819
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_137:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 7836
-	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
-plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
+.word 7822
+	.no_dead_strip plt_System_Delegate_get_Method
+plt_System_Delegate_get_Method:
 _p_138:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 7839
-	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
-plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
+.word 7841
+	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
+plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_139:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 7842
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 7844
+	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
+plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
 _p_140:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 7845
-	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
-plt_System_Threading_AtomicBoolean__ctor:
+.word 7847
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_141:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 7864
-	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
-plt_System_Threading_AtomicBoolean_TryRelaxedSet:
+.word 7850
+	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
+plt_System_Threading_AtomicBoolean__ctor:
 _p_142:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 7866
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 7869
+	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
+plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_143:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 7868
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+.word 7871
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_144:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 7887
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 7873
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
 _p_145:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 7917
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 7892
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_146:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 7920
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+.word 7922
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_147:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 7939
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+.word 7925
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_148:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 7958
-	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
-plt_System_Type_op_Equality_System_Type_System_Type:
+.word 7944
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_149:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 7977
-	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
-plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
+.word 7963
+	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
+plt_System_Type_op_Equality_System_Type_System_Type:
 _p_150:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 7980
-	.no_dead_strip plt_System_Decimal__ctor_int
-plt_System_Decimal__ctor_int:
+.word 7982
+	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
+plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
 _p_151:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 7999
-	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
-plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
+.word 7985
+	.no_dead_strip plt_System_Decimal__ctor_int
+plt_System_Decimal__ctor_int:
 _p_152:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 8002
-	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
-plt_intptr_op_Equality_intptr_intptr:
+.word 8004
+	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
+plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_153:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 8005
-	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
-plt_uintptr_op_Equality_uintptr_uintptr:
+.word 8007
+	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
+plt_intptr_op_Equality_intptr_intptr:
 _p_154:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 8008
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+.word 8010
+	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
+plt_uintptr_op_Equality_uintptr_uintptr:
 _p_155:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 8011
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+.word 8013
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_156:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 8030
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+.word 8016
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_157:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 8049
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+.word 8035
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_158:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 8052
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
+.word 8054
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_159:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 8055
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 8057
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
 _p_160:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 8074
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
+.word 8060
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_161:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 8111
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
+.word 8079
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
 _p_162:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 8152
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
+.word 8116
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
 _p_163:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 8193
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
+.word 8157
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
 _p_164:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 8201
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
+.word 8198
+	.no_dead_strip plt__rgctx_fetch_15
+plt__rgctx_fetch_15:
 _p_165:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 8242
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
+.word 8206
+	.no_dead_strip plt__rgctx_fetch_16
+plt__rgctx_fetch_16:
 _p_166:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 8283
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
+.word 8247
+	.no_dead_strip plt__rgctx_fetch_17
+plt__rgctx_fetch_17:
 _p_167:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 8324
-	.no_dead_strip plt__rgctx_fetch_19
-plt__rgctx_fetch_19:
+.word 8288
+	.no_dead_strip plt__rgctx_fetch_18
+plt__rgctx_fetch_18:
 _p_168:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 8365
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
+.word 8329
+	.no_dead_strip plt__rgctx_fetch_19
+plt__rgctx_fetch_19:
 _p_169:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 8373
-	.no_dead_strip plt__rgctx_fetch_20
-plt__rgctx_fetch_20:
+.word 8370
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
 _p_170:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 8399
-	.no_dead_strip plt__rgctx_fetch_21
-plt__rgctx_fetch_21:
+.word 8378
+	.no_dead_strip plt__rgctx_fetch_20
+plt__rgctx_fetch_20:
 _p_171:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 8432
-	.no_dead_strip plt__rgctx_fetch_22
-plt__rgctx_fetch_22:
+.word 8404
+	.no_dead_strip plt__rgctx_fetch_21
+plt__rgctx_fetch_21:
 _p_172:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 8450
-	.no_dead_strip plt__rgctx_fetch_23
-plt__rgctx_fetch_23:
+.word 8437
+	.no_dead_strip plt__rgctx_fetch_22
+plt__rgctx_fetch_22:
 _p_173:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 8484
-	.no_dead_strip plt__rgctx_fetch_24
-plt__rgctx_fetch_24:
+.word 8455
+	.no_dead_strip plt__rgctx_fetch_23
+plt__rgctx_fetch_23:
 _p_174:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 8492
-	.no_dead_strip plt__rgctx_fetch_25
-plt__rgctx_fetch_25:
+.word 8489
+	.no_dead_strip plt__rgctx_fetch_24
+plt__rgctx_fetch_24:
 _p_175:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 8541
-	.no_dead_strip plt__rgctx_fetch_26
-plt__rgctx_fetch_26:
+.word 8497
+	.no_dead_strip plt__rgctx_fetch_25
+plt__rgctx_fetch_25:
 _p_176:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 8549
-	.no_dead_strip plt__rgctx_fetch_27
-plt__rgctx_fetch_27:
+.word 8546
+	.no_dead_strip plt__rgctx_fetch_26
+plt__rgctx_fetch_26:
 _p_177:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 8590
-	.no_dead_strip plt__rgctx_fetch_28
-plt__rgctx_fetch_28:
+.word 8554
+	.no_dead_strip plt__rgctx_fetch_27
+plt__rgctx_fetch_27:
 _p_178:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 8631
-	.no_dead_strip plt__rgctx_fetch_29
-plt__rgctx_fetch_29:
+.word 8595
+	.no_dead_strip plt__rgctx_fetch_28
+plt__rgctx_fetch_28:
 _p_179:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 8672
-	.no_dead_strip plt__rgctx_fetch_30
-plt__rgctx_fetch_30:
+.word 8636
+	.no_dead_strip plt__rgctx_fetch_29
+plt__rgctx_fetch_29:
 _p_180:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 8721
-	.no_dead_strip plt__rgctx_fetch_31
-plt__rgctx_fetch_31:
+.word 8677
+	.no_dead_strip plt__rgctx_fetch_30
+plt__rgctx_fetch_30:
 _p_181:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 8729
-	.no_dead_strip plt__rgctx_fetch_32
-plt__rgctx_fetch_32:
+.word 8726
+	.no_dead_strip plt__rgctx_fetch_31
+plt__rgctx_fetch_31:
 _p_182:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 8778
-	.no_dead_strip plt__rgctx_fetch_33
-plt__rgctx_fetch_33:
+.word 8734
+	.no_dead_strip plt__rgctx_fetch_32
+plt__rgctx_fetch_32:
 _p_183:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 8786
-	.no_dead_strip plt__rgctx_fetch_34
-plt__rgctx_fetch_34:
+.word 8783
+	.no_dead_strip plt__rgctx_fetch_33
+plt__rgctx_fetch_33:
 _p_184:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 8809
-	.no_dead_strip plt__rgctx_fetch_35
-plt__rgctx_fetch_35:
+.word 8791
+	.no_dead_strip plt__rgctx_fetch_34
+plt__rgctx_fetch_34:
 _p_185:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 8817
-	.no_dead_strip plt__jit_icall_mono_ldftn
-plt__jit_icall_mono_ldftn:
+.word 8814
+	.no_dead_strip plt__rgctx_fetch_35
+plt__rgctx_fetch_35:
 _p_186:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 8840
-	.no_dead_strip plt__rgctx_fetch_36
-plt__rgctx_fetch_36:
+.word 8822
+	.no_dead_strip plt__jit_icall_mono_ldftn
+plt__jit_icall_mono_ldftn:
 _p_187:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 8863
-	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
-plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
+.word 8845
+	.no_dead_strip plt__rgctx_fetch_36
+plt__rgctx_fetch_36:
 _p_188:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 8871
-	.no_dead_strip plt__rgctx_fetch_37
-plt__rgctx_fetch_37:
+.word 8868
+	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
+plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_189:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+0
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 8911
-	.no_dead_strip plt__rgctx_fetch_38
-plt__rgctx_fetch_38:
+.word 8876
+	.no_dead_strip plt__rgctx_fetch_37
+plt__rgctx_fetch_37:
 _p_190:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 8937
-	.no_dead_strip plt__rgctx_fetch_39
-plt__rgctx_fetch_39:
+.word 8916
+	.no_dead_strip plt__rgctx_fetch_38
+plt__rgctx_fetch_38:
 _p_191:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 8986
-	.no_dead_strip plt__rgctx_fetch_40
-plt__rgctx_fetch_40:
+.word 8942
+	.no_dead_strip plt__rgctx_fetch_39
+plt__rgctx_fetch_39:
 _p_192:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 8994
-	.no_dead_strip plt__rgctx_fetch_41
-plt__rgctx_fetch_41:
+.word 8991
+	.no_dead_strip plt__rgctx_fetch_40
+plt__rgctx_fetch_40:
 _p_193:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 9035
-	.no_dead_strip plt__rgctx_fetch_42
-plt__rgctx_fetch_42:
+.word 8999
+	.no_dead_strip plt__rgctx_fetch_41
+plt__rgctx_fetch_41:
 _p_194:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 9043
-	.no_dead_strip plt__rgctx_fetch_43
-plt__rgctx_fetch_43:
+.word 9040
+	.no_dead_strip plt__rgctx_fetch_42
+plt__rgctx_fetch_42:
 _p_195:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 9066
-	.no_dead_strip plt__rgctx_fetch_44
-plt__rgctx_fetch_44:
+.word 9048
+	.no_dead_strip plt__rgctx_fetch_43
+plt__rgctx_fetch_43:
 _p_196:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 9089
-	.no_dead_strip plt__rgctx_fetch_45
-plt__rgctx_fetch_45:
+.word 9071
+	.no_dead_strip plt__rgctx_fetch_44
+plt__rgctx_fetch_44:
 _p_197:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 9112
-	.no_dead_strip plt__rgctx_fetch_46
-plt__rgctx_fetch_46:
+.word 9094
+	.no_dead_strip plt__rgctx_fetch_45
+plt__rgctx_fetch_45:
 _p_198:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 9153
-	.no_dead_strip plt__rgctx_fetch_47
-plt__rgctx_fetch_47:
+.word 9117
+	.no_dead_strip plt__rgctx_fetch_46
+plt__rgctx_fetch_46:
 _p_199:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 9161
-	.no_dead_strip plt__rgctx_fetch_48
-plt__rgctx_fetch_48:
+.word 9158
+	.no_dead_strip plt__rgctx_fetch_47
+plt__rgctx_fetch_47:
 _p_200:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 9210
-	.no_dead_strip plt__rgctx_fetch_49
-plt__rgctx_fetch_49:
+.word 9166
+	.no_dead_strip plt__rgctx_fetch_48
+plt__rgctx_fetch_48:
 _p_201:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 9218
-	.no_dead_strip plt__rgctx_fetch_50
-plt__rgctx_fetch_50:
+.word 9215
+	.no_dead_strip plt__rgctx_fetch_49
+plt__rgctx_fetch_49:
 _p_202:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 9241
-	.no_dead_strip plt__rgctx_fetch_51
-plt__rgctx_fetch_51:
+.word 9223
+	.no_dead_strip plt__rgctx_fetch_50
+plt__rgctx_fetch_50:
 _p_203:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 9249
-	.no_dead_strip plt__rgctx_fetch_52
-plt__rgctx_fetch_52:
+.word 9246
+	.no_dead_strip plt__rgctx_fetch_51
+plt__rgctx_fetch_51:
 _p_204:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 9280
-	.no_dead_strip plt__rgctx_fetch_53
-plt__rgctx_fetch_53:
+.word 9254
+	.no_dead_strip plt__rgctx_fetch_52
+plt__rgctx_fetch_52:
 _p_205:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 9288
-	.no_dead_strip plt__rgctx_fetch_54
-plt__rgctx_fetch_54:
+.word 9285
+	.no_dead_strip plt__rgctx_fetch_53
+plt__rgctx_fetch_53:
 _p_206:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 9311
-	.no_dead_strip plt__rgctx_fetch_55
-plt__rgctx_fetch_55:
+.word 9293
+	.no_dead_strip plt__rgctx_fetch_54
+plt__rgctx_fetch_54:
 _p_207:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 9334
-	.no_dead_strip plt__rgctx_fetch_56
-plt__rgctx_fetch_56:
+.word 9316
+	.no_dead_strip plt__rgctx_fetch_55
+plt__rgctx_fetch_55:
 _p_208:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 9357
-	.no_dead_strip plt__rgctx_fetch_57
-plt__rgctx_fetch_57:
+.word 9339
+	.no_dead_strip plt__rgctx_fetch_56
+plt__rgctx_fetch_56:
 _p_209:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 9365
-	.no_dead_strip plt__rgctx_fetch_58
-plt__rgctx_fetch_58:
+.word 9362
+	.no_dead_strip plt__rgctx_fetch_57
+plt__rgctx_fetch_57:
 _p_210:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 9388
-	.no_dead_strip plt__rgctx_fetch_59
-plt__rgctx_fetch_59:
+.word 9370
+	.no_dead_strip plt__rgctx_fetch_58
+plt__rgctx_fetch_58:
 _p_211:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 9411
-	.no_dead_strip plt__rgctx_fetch_60
-plt__rgctx_fetch_60:
+.word 9393
+	.no_dead_strip plt__rgctx_fetch_59
+plt__rgctx_fetch_59:
 _p_212:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 9434
-	.no_dead_strip plt__rgctx_fetch_61
-plt__rgctx_fetch_61:
+.word 9416
+	.no_dead_strip plt__rgctx_fetch_60
+plt__rgctx_fetch_60:
 _p_213:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 9475
-	.no_dead_strip plt__rgctx_fetch_62
-plt__rgctx_fetch_62:
+.word 9439
+	.no_dead_strip plt__rgctx_fetch_61
+plt__rgctx_fetch_61:
 _p_214:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 9516
-	.no_dead_strip plt__rgctx_fetch_63
-plt__rgctx_fetch_63:
+.word 9480
+	.no_dead_strip plt__rgctx_fetch_62
+plt__rgctx_fetch_62:
 _p_215:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 9557
-	.no_dead_strip plt__rgctx_fetch_64
-plt__rgctx_fetch_64:
+.word 9521
+	.no_dead_strip plt__rgctx_fetch_63
+plt__rgctx_fetch_63:
 _p_216:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 9565
-	.no_dead_strip plt__rgctx_fetch_65
-plt__rgctx_fetch_65:
+.word 9562
+	.no_dead_strip plt__rgctx_fetch_64
+plt__rgctx_fetch_64:
 _p_217:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 9606
-	.no_dead_strip plt__rgctx_fetch_66
-plt__rgctx_fetch_66:
+.word 9570
+	.no_dead_strip plt__rgctx_fetch_65
+plt__rgctx_fetch_65:
 _p_218:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 9647
-	.no_dead_strip plt__rgctx_fetch_67
-plt__rgctx_fetch_67:
+.word 9611
+	.no_dead_strip plt__rgctx_fetch_66
+plt__rgctx_fetch_66:
 _p_219:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 9688
-	.no_dead_strip plt__rgctx_fetch_68
-plt__rgctx_fetch_68:
+.word 9652
+	.no_dead_strip plt__rgctx_fetch_67
+plt__rgctx_fetch_67:
 _p_220:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 9729
-	.no_dead_strip plt__rgctx_fetch_69
-plt__rgctx_fetch_69:
+.word 9693
+	.no_dead_strip plt__rgctx_fetch_68
+plt__rgctx_fetch_68:
 _p_221:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 9737
-	.no_dead_strip plt__rgctx_fetch_70
-plt__rgctx_fetch_70:
+.word 9734
+	.no_dead_strip plt__rgctx_fetch_69
+plt__rgctx_fetch_69:
 _p_222:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 9770
-	.no_dead_strip plt__rgctx_fetch_71
-plt__rgctx_fetch_71:
+.word 9742
+	.no_dead_strip plt__rgctx_fetch_70
+plt__rgctx_fetch_70:
 _p_223:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 9788
-	.no_dead_strip plt__rgctx_fetch_72
-plt__rgctx_fetch_72:
+.word 9775
+	.no_dead_strip plt__rgctx_fetch_71
+plt__rgctx_fetch_71:
 _p_224:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 9822
-	.no_dead_strip plt__rgctx_fetch_73
-plt__rgctx_fetch_73:
+.word 9793
+	.no_dead_strip plt__rgctx_fetch_72
+plt__rgctx_fetch_72:
 _p_225:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 9830
-	.no_dead_strip plt__rgctx_fetch_74
-plt__rgctx_fetch_74:
+.word 9827
+	.no_dead_strip plt__rgctx_fetch_73
+plt__rgctx_fetch_73:
 _p_226:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 9879
-	.no_dead_strip plt__rgctx_fetch_75
-plt__rgctx_fetch_75:
+.word 9835
+	.no_dead_strip plt__rgctx_fetch_74
+plt__rgctx_fetch_74:
 _p_227:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 9887
-	.no_dead_strip plt__rgctx_fetch_76
-plt__rgctx_fetch_76:
+.word 9884
+	.no_dead_strip plt__rgctx_fetch_75
+plt__rgctx_fetch_75:
 _p_228:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 9928
-	.no_dead_strip plt__rgctx_fetch_77
-plt__rgctx_fetch_77:
+.word 9892
+	.no_dead_strip plt__rgctx_fetch_76
+plt__rgctx_fetch_76:
 _p_229:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 9969
-	.no_dead_strip plt__rgctx_fetch_78
-plt__rgctx_fetch_78:
+.word 9933
+	.no_dead_strip plt__rgctx_fetch_77
+plt__rgctx_fetch_77:
 _p_230:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 10010
-	.no_dead_strip plt__rgctx_fetch_79
-plt__rgctx_fetch_79:
+.word 9974
+	.no_dead_strip plt__rgctx_fetch_78
+plt__rgctx_fetch_78:
 _p_231:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 10059
-	.no_dead_strip plt__rgctx_fetch_80
-plt__rgctx_fetch_80:
+.word 10015
+	.no_dead_strip plt__rgctx_fetch_79
+plt__rgctx_fetch_79:
 _p_232:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 10067
-	.no_dead_strip plt__rgctx_fetch_81
-plt__rgctx_fetch_81:
+.word 10064
+	.no_dead_strip plt__rgctx_fetch_80
+plt__rgctx_fetch_80:
 _p_233:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 10116
-	.no_dead_strip plt__rgctx_fetch_82
-plt__rgctx_fetch_82:
+.word 10072
+	.no_dead_strip plt__rgctx_fetch_81
+plt__rgctx_fetch_81:
 _p_234:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 10124
-	.no_dead_strip plt__rgctx_fetch_83
-plt__rgctx_fetch_83:
+.word 10121
+	.no_dead_strip plt__rgctx_fetch_82
+plt__rgctx_fetch_82:
 _p_235:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 10147
-	.no_dead_strip plt__rgctx_fetch_84
-plt__rgctx_fetch_84:
+.word 10129
+	.no_dead_strip plt__rgctx_fetch_83
+plt__rgctx_fetch_83:
 _p_236:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 10155
-	.no_dead_strip plt__rgctx_fetch_85
-plt__rgctx_fetch_85:
+.word 10152
+	.no_dead_strip plt__rgctx_fetch_84
+plt__rgctx_fetch_84:
 _p_237:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 10188
-	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
-plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
+.word 10160
+	.no_dead_strip plt__rgctx_fetch_85
+plt__rgctx_fetch_85:
 _p_238:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 10196
-	.no_dead_strip plt__rgctx_fetch_86
-plt__rgctx_fetch_86:
+.word 10193
+	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
+plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_239:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 10236
-	.no_dead_strip plt__rgctx_fetch_87
-plt__rgctx_fetch_87:
+.word 10201
+	.no_dead_strip plt__rgctx_fetch_86
+plt__rgctx_fetch_86:
 _p_240:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 10262
-	.no_dead_strip plt__rgctx_fetch_88
-plt__rgctx_fetch_88:
+.word 10241
+	.no_dead_strip plt__rgctx_fetch_87
+plt__rgctx_fetch_87:
 _p_241:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 10311
-	.no_dead_strip plt__rgctx_fetch_89
-plt__rgctx_fetch_89:
+.word 10267
+	.no_dead_strip plt__rgctx_fetch_88
+plt__rgctx_fetch_88:
 _p_242:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 10319
-	.no_dead_strip plt__rgctx_fetch_90
-plt__rgctx_fetch_90:
+.word 10316
+	.no_dead_strip plt__rgctx_fetch_89
+plt__rgctx_fetch_89:
 _p_243:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 10360
-	.no_dead_strip plt__rgctx_fetch_91
-plt__rgctx_fetch_91:
+.word 10324
+	.no_dead_strip plt__rgctx_fetch_90
+plt__rgctx_fetch_90:
 _p_244:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 10368
-	.no_dead_strip plt__rgctx_fetch_92
-plt__rgctx_fetch_92:
+.word 10365
+	.no_dead_strip plt__rgctx_fetch_91
+plt__rgctx_fetch_91:
 _p_245:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 10391
-	.no_dead_strip plt__rgctx_fetch_93
-plt__rgctx_fetch_93:
+.word 10373
+	.no_dead_strip plt__rgctx_fetch_92
+plt__rgctx_fetch_92:
 _p_246:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 10414
-	.no_dead_strip plt__rgctx_fetch_94
-plt__rgctx_fetch_94:
+.word 10396
+	.no_dead_strip plt__rgctx_fetch_93
+plt__rgctx_fetch_93:
 _p_247:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 10437
-	.no_dead_strip plt__rgctx_fetch_95
-plt__rgctx_fetch_95:
+.word 10419
+	.no_dead_strip plt__rgctx_fetch_94
+plt__rgctx_fetch_94:
 _p_248:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 10478
-	.no_dead_strip plt__rgctx_fetch_96
-plt__rgctx_fetch_96:
+.word 10442
+	.no_dead_strip plt__rgctx_fetch_95
+plt__rgctx_fetch_95:
 _p_249:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 10486
-	.no_dead_strip plt__rgctx_fetch_97
-plt__rgctx_fetch_97:
+.word 10483
+	.no_dead_strip plt__rgctx_fetch_96
+plt__rgctx_fetch_96:
 _p_250:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 10535
-	.no_dead_strip plt__rgctx_fetch_98
-plt__rgctx_fetch_98:
+.word 10491
+	.no_dead_strip plt__rgctx_fetch_97
+plt__rgctx_fetch_97:
 _p_251:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 10543
-	.no_dead_strip plt__rgctx_fetch_99
-plt__rgctx_fetch_99:
+.word 10540
+	.no_dead_strip plt__rgctx_fetch_98
+plt__rgctx_fetch_98:
 _p_252:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 10566
-	.no_dead_strip plt__rgctx_fetch_100
-plt__rgctx_fetch_100:
+.word 10548
+	.no_dead_strip plt__rgctx_fetch_99
+plt__rgctx_fetch_99:
 _p_253:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 10574
-	.no_dead_strip plt__rgctx_fetch_101
-plt__rgctx_fetch_101:
+.word 10571
+	.no_dead_strip plt__rgctx_fetch_100
+plt__rgctx_fetch_100:
 _p_254:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 10605
-	.no_dead_strip plt__rgctx_fetch_102
-plt__rgctx_fetch_102:
+.word 10579
+	.no_dead_strip plt__rgctx_fetch_101
+plt__rgctx_fetch_101:
 _p_255:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 10613
-	.no_dead_strip plt__rgctx_fetch_103
-plt__rgctx_fetch_103:
+.word 10610
+	.no_dead_strip plt__rgctx_fetch_102
+plt__rgctx_fetch_102:
 _p_256:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 10636
-	.no_dead_strip plt__rgctx_fetch_104
-plt__rgctx_fetch_104:
+.word 10618
+	.no_dead_strip plt__rgctx_fetch_103
+plt__rgctx_fetch_103:
 _p_257:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 10659
-	.no_dead_strip plt__rgctx_fetch_105
-plt__rgctx_fetch_105:
+.word 10641
+	.no_dead_strip plt__rgctx_fetch_104
+plt__rgctx_fetch_104:
 _p_258:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 10682
-	.no_dead_strip plt__rgctx_fetch_106
-plt__rgctx_fetch_106:
+.word 10664
+	.no_dead_strip plt__rgctx_fetch_105
+plt__rgctx_fetch_105:
 _p_259:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 10690
-	.no_dead_strip plt__rgctx_fetch_107
-plt__rgctx_fetch_107:
+.word 10687
+	.no_dead_strip plt__rgctx_fetch_106
+plt__rgctx_fetch_106:
 _p_260:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 10713
-	.no_dead_strip plt__rgctx_fetch_108
-plt__rgctx_fetch_108:
+.word 10695
+	.no_dead_strip plt__rgctx_fetch_107
+plt__rgctx_fetch_107:
 _p_261:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 10736
-	.no_dead_strip plt__rgctx_fetch_109
-plt__rgctx_fetch_109:
+.word 10718
+	.no_dead_strip plt__rgctx_fetch_108
+plt__rgctx_fetch_108:
 _p_262:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 10759
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+.word 10741
+	.no_dead_strip plt__rgctx_fetch_109
+plt__rgctx_fetch_109:
 _p_263:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 10782
-	.no_dead_strip plt__rgctx_fetch_110
-plt__rgctx_fetch_110:
+.word 10764
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_264:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 10827
-	.no_dead_strip plt__rgctx_fetch_111
-plt__rgctx_fetch_111:
+.word 10787
+	.no_dead_strip plt__rgctx_fetch_110
+plt__rgctx_fetch_110:
 _p_265:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 10835
-	.no_dead_strip plt__rgctx_fetch_112
-plt__rgctx_fetch_112:
+.word 10832
+	.no_dead_strip plt__rgctx_fetch_111
+plt__rgctx_fetch_111:
 _p_266:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 10884
-	.no_dead_strip plt__rgctx_fetch_113
-plt__rgctx_fetch_113:
+.word 10840
+	.no_dead_strip plt__rgctx_fetch_112
+plt__rgctx_fetch_112:
 _p_267:
 adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
 add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 10892
+.word 10889
+	.no_dead_strip plt__rgctx_fetch_113
+plt__rgctx_fetch_113:
+_p_268:
+adrp x16, mono_aot_BarcodeTestApp_got@PAGE+4096
+add x16, x16, mono_aot_BarcodeTestApp_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 10897
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_BarcodeTestApp_got, 4720
+.lcomm mono_aot_BarcodeTestApp_got, 4728
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -27143,7 +27147,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "FF21156A-EC9D-4686-A03B-B380BC133728"
+	.asciz "3F570D2F-FC9C-4BF6-A87A-04583282EEA3"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -27220,13 +27224,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 322,4720,268,202,70,923871743,0,45086
+	.long 322,4728,269,202,70,923871743,0,45087
 	.long 128,8,8,10,0,15,53592,8496
 	.long 7904,6968,0,7464,7872,7024,0,5512
 	.long 296,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 137,149,62,38,75,219,42,103,216,17,29,53,103,18,167,191
+	.byte 176,225,88,170,44,135,59,250,58,57,180,247,139,38,128,130
 	.globl _mono_aot_module_BarcodeTestApp_info
 	.align 3
 _mono_aot_module_BarcodeTestApp_info:

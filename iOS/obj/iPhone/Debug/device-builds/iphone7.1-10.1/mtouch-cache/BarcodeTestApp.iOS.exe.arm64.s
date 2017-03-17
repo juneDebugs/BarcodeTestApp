@@ -485,7 +485,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F24564BF-BECF-4710-80A2-D2805FB76A11"
+	.asciz "628900D5-0AD9-4641-BB9D-B959C305ACBF"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -568,7 +568,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 240,104,119,61,65,113,230,48,126,65,108,189,70,114,190,211
+	.byte 47,194,101,213,208,128,237,112,86,243,113,38,4,117,75,169
 	.globl _mono_aot_module_BarcodeTestApp_iOS_info
 	.align 3
 _mono_aot_module_BarcodeTestApp_iOS_info:
