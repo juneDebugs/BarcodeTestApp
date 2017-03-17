@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -18,12 +19,29 @@ namespace BarcodeTestApp
 		ICommand takePhotoCommand;
 		//Capital I = Interface !!
 
+		public ICommand TakePhotoCommand
+		{
+			get { return takePhotoCommand; }
+		}
+
 		public ImageSource LocalImageSource
 		{
 			get { return localSource; }
 			set
 			{
 				localSource = value;
+				OnPropertyChanged();
+			}
+		}
+
+		public string Path
+		{
+			get { return path; }
+			set
+			{
+				if (path == value)
+					return;
+				path = value;
 				OnPropertyChanged();
 			}
 		}
