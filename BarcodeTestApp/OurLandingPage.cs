@@ -22,7 +22,11 @@ namespace BarcodeTestApp
 				}
 			};
 
+			//create Bindings
 
+			image.SetBinding(Image.SourceProperty, "LocalImageSource" );
+			pathLabel.SetBinding(Label.TextProperty, "Path");
+			button.SetBinding(Button.CommandProperty, "TakePhotoCommand");
 		}
 	}
 }

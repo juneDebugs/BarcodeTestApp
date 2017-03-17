@@ -31,7 +31,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App.cs" />
     <Compile Include="OurLandingPage.cs" />
-    <Compile Include="OurLandingPageViewModel.cs" />
+    <Compile Include="BaseViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
