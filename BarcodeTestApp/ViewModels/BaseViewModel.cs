@@ -8,7 +8,6 @@ using Xamarin.Forms;
 namespace BarcodeTestApp
 {
 	public class BaseViewModel : INotifyPropertyChanged
-	//I = Capital I defines a interface
 	{
 		public BaseViewModel()
 		{

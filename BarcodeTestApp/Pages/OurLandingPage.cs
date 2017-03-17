@@ -9,8 +9,6 @@ namespace BarcodeTestApp
 			var image = new Image();
 			var pathLabel = new Label();
 			var button = new Button { Text = "Take Picture", };
-			//curly brakets define inline with the constructor
-			//CTRL + SpaceBar shoes all properties 
 
 			Content = new StackLayout
 			{
@@ -22,14 +20,12 @@ namespace BarcodeTestApp
 				}
 			};
 
-			//create Bindings
-
+			//Created Bindings here
 			image.SetBinding(Image.SourceProperty, "LocalImageSource");
 			pathLabel.SetBinding(Label.TextProperty, "Path");
 			button.SetBinding(Button.CommandProperty, "TakePhotoCommand");
 
 			BindingContext = new BaseViewModel();
-
 		}
 	}
 }
