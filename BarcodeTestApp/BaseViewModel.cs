@@ -21,7 +21,7 @@ namespace BarcodeTestApp
 
 		public ICommand TakePhotoCommand
 		{
-			get { return takePhotoCommand; }
+			get { return takePhotoCommand ?? (takePhotoCommand = new Command(async () => await TakePhoto())); }
 		}
 
 		public ImageSource LocalImageSource
@@ -50,6 +50,16 @@ namespace BarcodeTestApp
 
 		public async Task TakePhoto()
 		{
+			var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+
+			var result = await scanner.Scan();
+
+			if (result != null)
+			{
+				System.Diagnostics.Debug.WriteLine("Scanned Barcode: " + result.Text);
+				path = result.Text;
+			}
+
 
 		}
 
