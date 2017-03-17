@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{7341E5C9-843A-4E74-B859-B254504CAB74}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="BarcodeTestApp/BaseViewModel.cs">
     <Files>
-      <File FileName="BarcodeTestApp/BaseViewModel.cs" Line="42" Column="4" />
+      <File FileName="BarcodeTestApp/BaseViewModel.cs" Line="52" Column="3" />
+      <File FileName="BarcodeTestApp/OurLandingPage.cs" Line="27" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BarcodeTestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5FE968E0-6E8B-4010-B784-FA3D855C1D28" />
