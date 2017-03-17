@@ -2,12 +2,10 @@
 
 namespace BarcodeTestApp
 {
-	public partial class App : Application
+	public class App : Application
 	{
 		public App()
 		{
-			InitializeComponent();
-
 			MainPage = new BarcodeTestAppPage();
 		}
 
