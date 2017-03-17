@@ -6,3 +6,7 @@
 /Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/bin/Debug/zxing.portable.dll
 /Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/bin/Debug/ZXingNetMobile.dll
 /Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/bin/Debug/ZXing.Net.Mobile.Forms.dll
+/Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/bin/Debug/BarcodeTestApp.dll.mdb
+/Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/bin/Debug/BarcodeTestApp.dll
+/Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/obj/Debug/BarcodeTestApp.dll
+/Users/junecho/Projects/BarcodeTestApp/BarcodeTestApp/obj/Debug/BarcodeTestApp.dll.mdb

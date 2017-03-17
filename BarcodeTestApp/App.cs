@@ -6,7 +6,7 @@ namespace BarcodeTestApp
 	{
 		public App()
 		{
-			MainPage = new BarcodeTestAppPage();
+			MainPage = new OurLandingPage();
 		}
 
 		protected override void OnStart()

@@ -14,7 +14,7 @@ namespace BarcodeTestApp
 
 			Content = new StackLayout
 			{
-				Children = 
+				Children =
 				{
 					image,
 					pathLabel,
@@ -24,9 +24,12 @@ namespace BarcodeTestApp
 
 			//create Bindings
 
-			image.SetBinding(Image.SourceProperty, "LocalImageSource" );
+			image.SetBinding(Image.SourceProperty, "LocalImageSource");
 			pathLabel.SetBinding(Label.TextProperty, "Path");
 			button.SetBinding(Button.CommandProperty, "TakePhotoCommand");
+
+			BindingContext = new BaseViewModel();
+
 		}
 	}
 }
