@@ -17,7 +17,6 @@ namespace BarcodeTestApp
 		ImageSource localSource = "icon.png";
 		string path = "";
 		ICommand takePhotoCommand;
-		//Capital I = Interface !!
 
 		public ICommand TakePhotoCommand
 		{
@@ -46,8 +45,6 @@ namespace BarcodeTestApp
 			}
 		}
 
-
-
 		public async Task TakePhoto()
 		{
 			var scanner = new ZXing.Mobile.MobileBarcodeScanner();
@@ -59,11 +56,7 @@ namespace BarcodeTestApp
 				System.Diagnostics.Debug.WriteLine("Scanned Barcode: " + result.Text);
 				Path = result.Text;
 			}
-
-
 		}
-
-
 
 		public event PropertyChangedEventHandler PropertyChanged;
 
@@ -71,6 +64,5 @@ namespace BarcodeTestApp
 		{
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 		}
-
 	}
 }
