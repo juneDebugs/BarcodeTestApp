@@ -46,7 +46,10 @@ namespace BarcodeTestApp
 
 		public async Task TakePhoto()
 		{
+			//IsLoading = true;
+
 			var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+
 
 			var result = await scanner.Scan();
 

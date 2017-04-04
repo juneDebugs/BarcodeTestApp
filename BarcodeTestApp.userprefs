@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{7341E5C9-843A-4E74-B859-B254504CAB74}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BarcodeTestApp/ViewModels/BaseViewModel.cs">
+  <MonoDevelop.Ide.ItemProperties.BarcodeTestApp.Droid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarcodeTestApp/Pages/OurLandingPage.cs">
     <Files>
-      <File FileName="BarcodeTestApp/App.cs" Line="16" Column="3" />
-      <File FileName="BarcodeTestApp/ViewModels/BaseViewModel.cs" Line="16" Column="40" />
-      <File FileName="BarcodeTestApp/Pages/OurLandingPage.cs" Line="11" Column="55" />
+      <File FileName="BarcodeTestApp/ViewModels/BaseViewModel.cs" Line="56" Column="23" />
+      <File FileName="BarcodeTestApp/Pages/OurLandingPage.cs" Line="21" Column="6" />
+      <File FileName="Droid/MainActivity.cs" Line="29" Column="3" />
+      <File FileName="BarcodeTestApp/App.cs" Line="9" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BarcodeTestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5FE968E0-6E8B-4010-B784-FA3D855C1D28" />
